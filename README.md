@@ -15,10 +15,22 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
  $ cmake ..
  $ make
  $ sudo make install
+ $ sudo ldconfig
 ```
 - After that, check ```/usr/local/include```, ```/usr/local/lib``` directories to see headers, and libs
 - If you want to recompile code base you can just use ```sudo make uninstall``` then rebuild the project. If it doesn't work you can delete the libs by manually then rebuild.
--  
+
+### Adding new module
+- Add a block to the module: gr_modtool add BLOCKNAME
+- Create a build directory (under the ```gr-<module name>/grc```): 
+- Bind the new added block ```gr_modtool bind BLOCKNAME```
+- Invoke the make process: ```cd build && cmake <OPTIONS> ../ && make``` (Note that you only have to call cmake if you've changed the CMake files)
+- Call ```gr_modtool makexml BLOCKNAME``` or ```gr_modtool makeyaml BLOCKNAME``` to generate the xml or yaml file for your blocks. Correct manually if needed.
+- Install (only when everything works and no tests fail): sudo make install
+- Ubuntu users: reload the libs: sudo ldconfig
+- Rename a block in the module: ```gr_modtool rename BLOCKNAME```
+- Delete blocks from the source tree: ```gr_modtool rm REGEX```
+- Disable blocks by removing them from the CMake files: ```gr_modtool disable REGEX```
 
 ## Citation
 Here are some key resources I used while developing the code for this project.
