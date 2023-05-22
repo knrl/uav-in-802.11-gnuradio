@@ -8,7 +8,6 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
 
 
 ## Citation
-The model that used in this project.
 
 ```
 @inproceedings{bloessl2013ieee,
