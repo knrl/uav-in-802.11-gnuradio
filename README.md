@@ -19,6 +19,7 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
 ```
 - After that, check ```/usr/local/include```, ```/usr/local/lib``` directories to see headers, and libs
 - If you want to recompile code base you can just use ```sudo make uninstall``` then rebuild the project. If it doesn't work you can delete the libs by manually then rebuild.
+- If you have still troubles there are some answered questions [troubleshooting](https://github.com/bastibl/gr-ieee802-11#troubleshooting-1)
 
 ### Adding new module
 - Add a block to the module: gr_modtool add BLOCKNAME
