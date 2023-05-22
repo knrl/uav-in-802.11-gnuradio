@@ -5,3 +5,31 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
 
 ## GNU Radio Block Diagram
 ![](screenshots/system_design.png)
+
+
+## Citation
+The model that used in this project.
+
+```
+@inproceedings{bloessl2013ieee,
+  title={An IEEE 802.11 a/g/p OFDM Receiver for GNU Radio},
+  author={Bloessl, Bastian and Segata, Michele and Sommer, Christoph and Dressler, Falko},
+  booktitle={Proceedings of the second workshop on Software radio implementation forum},
+  pages={9--16},
+  year={2013}
+}
+```
+```
+@github{github.com/zaeemzadeh/MIMO-OFDM-Alamouti,
+  title={MIMO-OFDM with Alamouti space-time coding},
+  author={Zaeemzadeh, Alireza},
+  year={2014}
+}
+```
+```
+@github{github.com/kit-cel/gnuradio, github.com/MLsmd/GSoC18-proposal
+  title={MIMO basics for GNU Radio},
+  author={Schmid, Moritz Luca},
+  year={2018}
+}
+```
