@@ -6,9 +6,22 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
 ## GNU Radio Block Diagram
 ![](screenshots/system_design.png)
 
+## Building
+- Before, install GNU Radio (v3.10) and dependencies from [Installing GR](https://wiki.gnuradio.org/index.php/InstallingGR)
+- Then clone the repo to a local directory
+- Build the project by following the below steps
+```
+ $ mkdir build && cd build
+ $ cmake ..
+ $ make
+ $ sudo make install
+```
+- After that, check ```/usr/local/include```, ```/usr/local/lib``` directories to see headers, and libs
+- If you want to recompile code base you can just use ```sudo make uninstall``` then rebuild the project. If it doesn't work you can delete the libs by manually then rebuild.
+-  
 
 ## Citation
-
+Here are some key resources I used while developing the code for this project.
 ```
 @inproceedings{bloessl2013ieee,
   title={An IEEE 802.11 a/g/p OFDM Receiver for GNU Radio},
