@@ -33,7 +33,7 @@ SDR (Software Defined Radio) provides flexible, reproducible and longer-lasting 
 - Disable blocks by removing them from the CMake files: ```gr_modtool disable REGEX```
 
 ## Citation
-Here are some key resources I used while developing the code for this project.
+Here are some key resources I used while developing the code for this project. I developed this project on top of [gr-ieee802-11](https://github.com/bastibl/gr-ieee802-11) as it has a lot of blocks that I need. 
 ```
 @inproceedings{bloessl2013ieee,
   title={An IEEE 802.11 a/g/p OFDM Receiver for GNU Radio},
