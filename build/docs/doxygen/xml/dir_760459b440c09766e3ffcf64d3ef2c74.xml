@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_760459b440c09766e3ffcf64d3ef2c74" kind="dir">
+    <compoundname>viterbi_decoder</compoundname>
+    <innerfile refid="viterbi__decoder_2base_8h">viterbi_decoder/base.h</innerfile>
+    <innerfile refid="viterbi__decoder_8h">viterbi_decoder.h</innerfile>
+    <innerfile refid="viterbi__decoder__generic_8h">viterbi_decoder_generic.h</innerfile>
+    <innerfile refid="viterbi__decoder__x86_8h">viterbi_decoder_x86.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/"/>
+  </compounddef>
+</doxygen>

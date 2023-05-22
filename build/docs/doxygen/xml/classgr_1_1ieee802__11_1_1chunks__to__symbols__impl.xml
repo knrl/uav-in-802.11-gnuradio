@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::chunks_to_symbols_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1chunks__to__symbols" prot="public" virt="non-virtual">gr::ieee802_11::chunks_to_symbols</basecompoundref>
+    <includes refid="chunks__to__symbols__impl_8h" local="no">chunks_to_symbols_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a05276f8548e00daf6bfedcec2888f5d1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; gr::digital::constellation &gt;</type>
+        <definition>std::shared_ptr&lt;gr::digital::constellation&gt; gr::ieee802_11::chunks_to_symbols_impl::d_mapping</definition>
+        <argsstring></argsstring>
+        <name>d_mapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="38" column="21" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a6e3f46ad502497a5e54088bfa84f475e" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a9726595ce5537952b009abade1d91db6" kindref="member">constellation_bpsk::sptr</ref></type>
+        <definition>constellation_bpsk::sptr gr::ieee802_11::chunks_to_symbols_impl::d_bpsk</definition>
+        <argsstring></argsstring>
+        <name>d_bpsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="39" column="30" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a092913fcc7bdb74a03780fe5b0d010e5" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__qpsk_1a6e324db84b1b7432ab7e6f5b6b1bbd1f" kindref="member">constellation_qpsk::sptr</ref></type>
+        <definition>constellation_qpsk::sptr gr::ieee802_11::chunks_to_symbols_impl::d_qpsk</definition>
+        <argsstring></argsstring>
+        <name>d_qpsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="40" column="30" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a82d744e54bda4b9525782100193b5cd9" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__16qam_1a30bba35d2350ee7b15e16255cdf13212" kindref="member">constellation_16qam::sptr</ref></type>
+        <definition>constellation_16qam::sptr gr::ieee802_11::chunks_to_symbols_impl::d_16qam</definition>
+        <argsstring></argsstring>
+        <name>d_16qam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="41" column="31" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1af99d38e457728dc7f0f93accaa7f04ad" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__64qam_1a53b7441a696579e9c099eb5178645da2" kindref="member">constellation_64qam::sptr</ref></type>
+        <definition>constellation_64qam::sptr gr::ieee802_11::chunks_to_symbols_impl::d_64qam</definition>
+        <argsstring></argsstring>
+        <name>d_64qam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="42" column="31" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a187d5e83b27ab93f849266168b30822b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::chunks_to_symbols_impl::chunks_to_symbols_impl</definition>
+        <argsstring>()</argsstring>
+        <name>chunks_to_symbols_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1ac1b69b6d3e67e6a5f6b1e51f4ff5b38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::chunks_to_symbols_impl::~chunks_to_symbols_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~chunks_to_symbols_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a9c9119b29f30661ee98742036f3f9493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::chunks_to_symbols_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_itmes, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_itmes</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="32" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::ieee802_11::chunks_to_symbols</label>
+        <link refid="classgr_1_1ieee802__11_1_1chunks__to__symbols"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::chunks_to_symbols_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::ieee802_11::chunks_to_symbols</label>
+        <link refid="classgr_1_1ieee802__11_1_1chunks__to__symbols"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::chunks_to_symbols_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" line="27" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/chunks_to_symbols_impl.h" bodystart="26" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a187d5e83b27ab93f849266168b30822b" prot="public" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>chunks_to_symbols_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a82d744e54bda4b9525782100193b5cd9" prot="private" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>d_16qam</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1af99d38e457728dc7f0f93accaa7f04ad" prot="private" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>d_64qam</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a6e3f46ad502497a5e54088bfa84f475e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>d_bpsk</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a05276f8548e00daf6bfedcec2888f5d1" prot="private" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>d_mapping</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a092913fcc7bdb74a03780fe5b0d010e5" prot="private" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>d_qpsk</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols_1a3c8dbb3cbd1188be400542caf24c767a" prot="public" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols_1a7d981ded95ddb0ecb12ddaed7df57f96" prot="public" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1a9c9119b29f30661ee98742036f3f9493" prot="public" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl_1ac1b69b6d3e67e6a5f6b1e51f4ff5b38e" prot="public" virt="non-virtual"><scope>gr::ieee802_11::chunks_to_symbols_impl</scope><name>~chunks_to_symbols_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

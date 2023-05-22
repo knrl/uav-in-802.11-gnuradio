@@ -1,0 +1,25 @@
+id: ieee802_11_alamouti_ofdm_tx_cc
+label: Alamouti OFDM Encoder
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.alamouti_ofdm_tx_cc(${fft_length})
+parameters:
+  - id: fft_length
+    label: FFT Length
+    dtype: int
+inputs:
+  - label: in
+    domain: stream
+    dtype: complex
+    vlen: 200
+outputs:
+  - label: out0
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+  - label: out1
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+file_format: 1

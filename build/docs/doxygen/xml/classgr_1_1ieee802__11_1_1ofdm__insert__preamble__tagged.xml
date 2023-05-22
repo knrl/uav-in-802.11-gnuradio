@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::ofdm_insert_preamble_tagged</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged__impl" prot="public" virt="non-virtual">gr::ieee802_11::ofdm_insert_preamble_tagged_impl</derivedcompoundref>
+    <includes refid="ofdm__insert__preamble__tagged_8h" local="no">ofdm_insert_preamble_tagged.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged_1a6c9626773fb36d32ce7c66af53ed9e14" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged" kindref="compound">ofdm_insert_preamble_tagged</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ofdm_insert_preamble_tagged&gt; gr::ieee802_11::ofdm_insert_preamble_tagged::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_insert_preamble_tagged.h" line="25" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_insert_preamble_tagged.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged_1afb49673721bc489e7e4d214032347bdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged_1a6c9626773fb36d32ce7c66af53ed9e14" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::ofdm_insert_preamble_tagged::make</definition>
+        <argsstring>(int fft_length, const std::vector&lt; std::vector&lt; gr_complex &gt;&gt; &amp;preamble)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt;&gt; &amp;</type>
+          <declname>preamble</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_insert_preamble_tagged.h" line="26" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::ieee802_11::ofdm_insert_preamble_tagged_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_insert_preamble_tagged</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_insert_preamble_tagged</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_insert_preamble_tagged.h" line="23" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_insert_preamble_tagged.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged_1afb49673721bc489e7e4d214032347bdd" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_insert_preamble_tagged</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged_1a6c9626773fb36d32ce7c66af53ed9e14" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_insert_preamble_tagged</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

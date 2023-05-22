@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1my__strobe__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::my_strobe_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1my__strobe" prot="public" virt="non-virtual">gr::ieee802_11::my_strobe</basecompoundref>
+    <includes refid="my__strobe__impl_8h" local="no">my_strobe_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3d9469cf297f66081df55ba62f989466" prot="private" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::ieee802_11::my_strobe_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="21" column="24" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1afe46ca422c1ba96d9db4fd663c40bf0b" prot="private" static="no" mutable="no">
+        <type>std::atomic&lt; bool &gt;</type>
+        <definition>std::atomic&lt;bool&gt; gr::ieee802_11::my_strobe_impl::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="22" column="17" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a149013c3a421196d31d9fea7e8265ddd" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::ieee802_11::my_strobe_impl::d_period_ms</definition>
+        <argsstring></argsstring>
+        <name>d_period_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="23" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a94fd22c2ef60fb8280ac464838e03bef" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ieee802_11::my_strobe_impl::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="24" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1aa37acd1a8b80b2a31adbeeccd93a846a" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::ieee802_11::my_strobe_impl::d_port</definition>
+        <argsstring></argsstring>
+        <name>d_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="25" column="22" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3bf9d9ab29c292e06e9f56bdb4536d39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::my_strobe_impl::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="27" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3cd924d79a5ab518bd84b35b8ad66155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::my_strobe_impl::my_strobe_impl</definition>
+        <argsstring>(pmt::pmt_t msg, long period_ms)</argsstring>
+        <name>my_strobe_impl</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1ab4aa199f316dc6d515bf1a03bd9aed72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::my_strobe_impl::~my_strobe_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~my_strobe_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a09167d50dffc071932e0abb7ef635e86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::my_strobe_impl::set_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>set_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="33" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="33" bodyend="33"/>
+        <references refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a88b96235f50c562670942e84a4fa8898" compoundref="my__strobe__impl_8h" startline="34" endline="34">msg</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1a88b96235f50c562670942e84a4fa8898" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ieee802_11::my_strobe_impl::msg</definition>
+        <argsstring>() const</argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="34" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="34" bodyend="34"/>
+        <referencedby refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a09167d50dffc071932e0abb7ef635e86" compoundref="my__strobe__impl_8h" startline="33" endline="33">set_msg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1abbe12f0f7dfdbf380f9e84cb69c6e17c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::my_strobe_impl::set_period</definition>
+        <argsstring>(long period_ms)</argsstring>
+        <name>set_period</name>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="35" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1ac7bdc1105b85c4ce68deca2473a136c7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr::ieee802_11::my_strobe_impl::period</definition>
+        <argsstring>() const</argsstring>
+        <name>period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="36" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1aa6346a6dbdbd7237b7ed869bc2a79196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::my_strobe_impl::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="38" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1my__strobe__impl_1ae8a773bbea90369616cd71676e10c9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::my_strobe_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="39" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::my_strobe</label>
+        <link refid="classgr_1_1ieee802__11_1_1my__strobe"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::my_strobe_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1my__strobe__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::my_strobe</label>
+        <link refid="classgr_1_1ieee802__11_1_1my__strobe"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::my_strobe_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1my__strobe__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" line="19" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/my_strobe_impl.h" bodystart="18" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1afe46ca422c1ba96d9db4fd663c40bf0b" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>d_finished</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a94fd22c2ef60fb8280ac464838e03bef" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>d_msg</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a149013c3a421196d31d9fea7e8265ddd" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>d_period_ms</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1aa37acd1a8b80b2a31adbeeccd93a846a" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>d_port</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3d9469cf297f66081df55ba62f989466" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe_1a0a778b3d5ca308cebd50a6caab6322fd" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a88b96235f50c562670942e84a4fa8898" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>msg</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3cd924d79a5ab518bd84b35b8ad66155" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>my_strobe_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1ac7bdc1105b85c4ce68deca2473a136c7" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>period</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a3bf9d9ab29c292e06e9f56bdb4536d39" prot="private" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>run</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1a09167d50dffc071932e0abb7ef635e86" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>set_msg</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1abbe12f0f7dfdbf380f9e84cb69c6e17c" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>set_period</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe_1aa7299955ea24cef07d17e7fe7f37e0ec" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1aa6346a6dbdbd7237b7ed869bc2a79196" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1ae8a773bbea90369616cd71676e10c9bf" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1my__strobe__impl_1ab4aa199f316dc6d515bf1a03bd9aed72" prot="public" virt="non-virtual"><scope>gr::ieee802_11::my_strobe_impl</scope><name>~my_strobe_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1equalizer_1_1sta" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::equalizer::sta</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1equalizer_1_1base" prot="public" virt="non-virtual">gr::ieee802_11::equalizer::base</basecompoundref>
+    <includes refid="sta_8h" local="no">sta.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a59904322bae7f7d486f298073d4d8c24" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::ieee802_11::equalizer::sta::d_snr</definition>
+        <argsstring></argsstring>
+        <name>d_snr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="39" column="12" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1adde3029cb3ded9ab1937ef4c0bfb75fe" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double gr::ieee802_11::equalizer::sta::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="41" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a68d8354f39131985eaeda4eabe1e6193" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::ieee802_11::equalizer::sta::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="42" column="15" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a39068ad726684f2f15f270b5ef6dcdeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::equalizer::sta::equalize</definition>
+        <argsstring>(gr_complex *in, int n, gr_complex *symbols, uint8_t *bits, std::shared_ptr&lt; gr::digital::constellation &gt; mod)</argsstring>
+        <name>equalize</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1a601251cfcf3cfe94a0575feea5c3ddf2">equalize</reimplements>
+        <param>
+          <type>gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; gr::digital::constellation &gt;</type>
+          <declname>mod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="31" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a8042e0bc0b6d50dc62c72df31b1feaac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::ieee802_11::equalizer::sta::get_snr</definition>
+        <argsstring>()</argsstring>
+        <name>get_snr</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1aa9ae6dbc74377c875bf5c93703aa7617">get_snr</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="36" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::equalizer::sta</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::equalizer::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::equalizer::sta</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::equalizer::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" line="29" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/sta.h" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1adde3029cb3ded9ab1937ef4c0bfb75fe" prot="private" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>alpha</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a68d8354f39131985eaeda4eabe1e6193" prot="private" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>beta</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1af82df31644673f4abb0e4e80f809f580" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>d_H</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a59904322bae7f7d486f298073d4d8c24" prot="private" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>d_snr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a39068ad726684f2f15f270b5ef6dcdeb" prot="public" virt="virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>equalize</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ab06e8532426f8b4710b12b75448756bf" prot="public" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>get_csi</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1sta_1a8042e0bc0b6d50dc62c72df31b1feaac" prot="public" virt="virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>get_snr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac19b0e5e639eb4a79ddc33f98345940c" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>LONG</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac3cdb66ab95e8b646380a6ae5118ae52" prot="public" virt="non-virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>POLARITY</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac157e3a93711b9c9148b4e740b26afb9" prot="public" virt="virtual"><scope>gr::ieee802_11::equalizer::sta</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

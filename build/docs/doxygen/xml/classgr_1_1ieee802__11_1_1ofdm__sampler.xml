@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1ofdm__sampler" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::ofdm_sampler</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl" prot="public" virt="non-virtual">gr::ieee802_11::ofdm_sampler_impl</derivedcompoundref>
+    <includes refid="ofdm__sampler_8h" local="no">ofdm_sampler.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac29f7ad09d2cad618ef961404259dd25" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1ofdm__sampler" kindref="compound">ofdm_sampler</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ofdm_sampler&gt; gr::ieee802_11::ofdm_sampler::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_sampler.h" line="25" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_sampler.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac7824a5f6acab8bd4e36661fa7154126" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac29f7ad09d2cad618ef961404259dd25" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::ofdm_sampler::make</definition>
+        <argsstring>(unsigned int fft_length, unsigned int symbol_length, unsigned int timeout=1000)</argsstring>
+        <name>make</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>symbol_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_sampler.h" line="26" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::ieee802_11::ofdm_sampler_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_sampler</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_sampler</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_sampler.h" line="23" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_sampler.h" bodystart="22" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac7824a5f6acab8bd4e36661fa7154126" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac29f7ad09d2cad618ef961404259dd25" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

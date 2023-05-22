@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1signal__field__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::signal_field_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1signal__field" prot="public" virt="non-virtual">gr::ieee802_11::signal_field</basecompoundref>
+    <includes refid="signal__field__impl_8h" local="no">signal_field_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field__impl_1a81264a24b001b717154037e7a4e2a9aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::signal_field_impl::signal_field_impl</definition>
+        <argsstring>()</argsstring>
+        <name>signal_field_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field__impl_1a826d8d0254e6a07413568eb7e007877e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::signal_field_impl::~signal_field_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~signal_field_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field__impl_1a1523dc9a261847a6abe6ca47eef6b128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::signal_field_impl::header_formatter</definition>
+        <argsstring>(long packet_len, unsigned char *out, const std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
+        <name>header_formatter</name>
+        <param>
+          <type>long</type>
+          <declname>packet_len</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="34" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field__impl_1af5e236deff804ae3a1563a8b9dd0bfbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::signal_field_impl::get_bit</definition>
+        <argsstring>(int b, int i)</argsstring>
+        <name>get_bit</name>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="39" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field__impl_1a590bd46c4bfdf884358f3dad171a2aa5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::signal_field_impl::generate_signal_field</definition>
+        <argsstring>(char *out, frame_param &amp;frame, ofdm_param &amp;ofdm)</argsstring>
+        <name>generate_signal_field</name>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classframe__param" kindref="compound">frame_param</ref> &amp;</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type><ref refid="classofdm__param" kindref="compound">ofdm_param</ref> &amp;</type>
+          <declname>ofdm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="40" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::signal_field_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::signal_field</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>digital::packet_header_default</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::signal_field_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::signal_field</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>digital::packet_header_default</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" line="28" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/signal_field_impl.h" bodystart="27" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field__impl_1a590bd46c4bfdf884358f3dad171a2aa5" prot="private" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>generate_signal_field</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field__impl_1af5e236deff804ae3a1563a8b9dd0bfbf" prot="private" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>get_bit</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field__impl_1a1523dc9a261847a6abe6ca47eef6b128" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>header_formatter</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1ac35468cb0369664d58e03ef27a6c9db4" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1aaf247d831328762dc0216877466f67ab" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>signal_field</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field__impl_1a81264a24b001b717154037e7a4e2a9aa" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>signal_field_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1a46aeec62d9df5855688f607ff73cf8fe" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field__impl_1a826d8d0254e6a07413568eb7e007877e" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field_impl</scope><name>~signal_field_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

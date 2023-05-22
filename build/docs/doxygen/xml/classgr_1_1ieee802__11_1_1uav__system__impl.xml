@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1uav__system__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::uav_system_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1uav__system" prot="public" virt="non-virtual">gr::ieee802_11::uav_system</basecompoundref>
+    <includes refid="uav__system__impl_8h" local="no">uav_system_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a196ef6fb12584ee4cc691bbb5d63846a" prot="private" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::ieee802_11::uav_system_impl::d_uav_thread</definition>
+        <argsstring></argsstring>
+        <name>d_uav_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="56" column="24" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a1919f45f50d1b015b9296e8081bacabe" prot="private" static="no" mutable="no">
+        <type>std::atomic&lt; bool &gt;</type>
+        <definition>std::atomic&lt;bool&gt; gr::ieee802_11::uav_system_impl::d_run_uav</definition>
+        <argsstring></argsstring>
+        <name>d_run_uav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="57" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1abb4f32869cbad48e3785a6a30a0bc9ea" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::uav_system_impl::d_master</definition>
+        <argsstring></argsstring>
+        <name>d_master</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="58" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1aea35919e797e99b2064868151fafe613" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::ieee802_11::uav_system_impl::d_period_ms</definition>
+        <argsstring></argsstring>
+        <name>d_period_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="59" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1acb8b8b52db4de54a0af3d5e9d19e22ab" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ieee802_11::uav_system_impl::d_msg0</definition>
+        <argsstring></argsstring>
+        <name>d_msg0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="60" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1af2d063a925c247bbc9cb60e52f1ca55b" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ieee802_11::uav_system_impl::d_msg1</definition>
+        <argsstring></argsstring>
+        <name>d_msg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="61" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a4f5aadf64a67f8509816278efe4cdb81" prot="private" static="no" mutable="no">
+        <type>struct <ref refid="structgr_1_1ieee802__11_1_1UAV" kindref="compound">UAV</ref></type>
+        <definition>struct UAV gr::ieee802_11::uav_system_impl::d_uav_1</definition>
+        <argsstring></argsstring>
+        <name>d_uav_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="61" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1aef7657366e931cec758e6fa7cb7e304b" prot="private" static="no" mutable="no">
+        <type>struct <ref refid="structgr_1_1ieee802__11_1_1Token" kindref="compound">Token</ref></type>
+        <definition>struct Token gr::ieee802_11::uav_system_impl::d_token_1</definition>
+        <argsstring></argsstring>
+        <name>d_token_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="61" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a0e65b49dfcc5fd036f754ede5925957e" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::uav_system_impl::d_psdu[MAX_PAYLOAD_SIZE]</definition>
+        <argsstring>[MAX_PAYLOAD_SIZE]</argsstring>
+        <name>d_psdu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="66" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a521d3aaca9a1dce40ab32ae20f598e56" prot="private" static="no" mutable="no">
+        <type>std::atomic&lt; bool &gt;</type>
+        <definition>std::atomic&lt;bool&gt; gr::ieee802_11::uav_system_impl::d_finished</definition>
+        <argsstring></argsstring>
+        <name>d_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="68" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1uav__system__impl_1af459af79d18f754599d2d022a23f4602" prot="private" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::ieee802_11::uav_system_impl::d_thread</definition>
+        <argsstring></argsstring>
+        <name>d_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="69" column="24" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a14bd2cebf5fecb77d4bde683ba65b676" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a42671a35f76c23457f36a3217401e141" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::run_uav</definition>
+        <argsstring>(struct UAV &amp;uav)</argsstring>
+        <name>run_uav</name>
+        <param>
+          <type>struct <ref refid="structgr_1_1ieee802__11_1_1UAV" kindref="compound">UAV</ref> &amp;</type>
+          <declname>uav</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a3d9761462a32718292726a1cbb5392f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::initial_token</definition>
+        <argsstring>(const uint8_t token_id)</argsstring>
+        <name>initial_token</name>
+        <param>
+          <type>const uint8_t</type>
+          <declname>token_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="73" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a23eb028d3f5f6a80432a7a396bbd7fa5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::phy_in0</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>phy_in0</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="74" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a9c7ec0f61e02dd784e6cf288ad9f4c5e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::phy_in1</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>phy_in1</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a1aeb4336907082759b97fc82b0bb1f74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::generate_mac_data_frame</definition>
+        <argsstring>(int msdu_size)</argsstring>
+        <name>generate_mac_data_frame</name>
+        <param>
+          <type>int</type>
+          <declname>msdu_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="77" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1ad2c2c4cd57c54112b02655adcc0f9f7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::uav_system_impl::uav_system_impl</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; src, long period_ms, bool master)</argsstring>
+        <name>uav_system_impl</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>master</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="80" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a1bba1a08ae02664bb05ab8e4f2100822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::uav_system_impl::~uav_system_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~uav_system_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="81" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1aa964304f5c4edcba74640e68e69f7b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::uav_system_impl::decide</definition>
+        <argsstring>(uint8_t type)</argsstring>
+        <name>decide</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="83" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a92876f0c693142d2505ec501c4d01bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::update_token</definition>
+        <argsstring>()</argsstring>
+        <name>update_token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="84" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1adeb2dcd200156da9bb89319f7a4a9746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t gr::ieee802_11::uav_system_impl::update_cache</definition>
+        <argsstring>(const char *msdu, size_t num_uavs)</argsstring>
+        <name>update_cache</name>
+        <param>
+          <type>const char *</type>
+          <declname>msdu</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_uavs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="85" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a3396bb2ad0775ee85042982c1865885f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::uav_system_impl::check_mac</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; mac)</argsstring>
+        <name>check_mac</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>mac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="87" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1afb7b9d98e8bf0883f12e737b3d0b9899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::set_master</definition>
+        <argsstring>(bool master)</argsstring>
+        <name>set_master</name>
+        <param>
+          <type>bool</type>
+          <declname>master</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="88" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a2caab2a67fe1169a81325a3e60295c22" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::uav_system_impl::get_master</definition>
+        <argsstring>() const</argsstring>
+        <name>get_master</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="89" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1af3dd8d518be135ad088868c5e1a28c75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::uav_system_impl::set_period</definition>
+        <argsstring>(long period_ms)</argsstring>
+        <name>set_period</name>
+        <param>
+          <type>long</type>
+          <declname>period_ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="90" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a94725509e3590d16bd622794a8e805fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long gr::ieee802_11::uav_system_impl::period</definition>
+        <argsstring>() const</argsstring>
+        <name>period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="91" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1a9b8e19c275acb8e6cfd2a42a69bbf7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::uav_system_impl::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1uav__system__impl_1ad84a1f37613998282db28b42a17e9f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::uav_system_impl::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="94" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::ieee802_11::uav_system</label>
+        <link refid="classgr_1_1ieee802__11_1_1uav__system"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::uav_system_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1uav__system__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::ieee802_11::uav_system</label>
+        <link refid="classgr_1_1ieee802__11_1_1uav__system"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::uav_system_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1uav__system__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="54" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="53" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a3396bb2ad0775ee85042982c1865885f" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>check_mac</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a521d3aaca9a1dce40ab32ae20f598e56" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_finished</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1abb4f32869cbad48e3785a6a30a0bc9ea" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_master</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1acb8b8b52db4de54a0af3d5e9d19e22ab" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_msg0</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1af2d063a925c247bbc9cb60e52f1ca55b" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_msg1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1aea35919e797e99b2064868151fafe613" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_period_ms</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a0e65b49dfcc5fd036f754ede5925957e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_psdu</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a1919f45f50d1b015b9296e8081bacabe" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_run_uav</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1af459af79d18f754599d2d022a23f4602" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_thread</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1aef7657366e931cec758e6fa7cb7e304b" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_token_1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a4f5aadf64a67f8509816278efe4cdb81" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_uav_1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a196ef6fb12584ee4cc691bbb5d63846a" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>d_uav_thread</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1aa964304f5c4edcba74640e68e69f7b38" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>decide</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a1aeb4336907082759b97fc82b0bb1f74" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>generate_mac_data_frame</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a2caab2a67fe1169a81325a3e60295c22" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>get_master</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a3d9761462a32718292726a1cbb5392f7" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>initial_token</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system_1ae0848e3e06c33279f5060e23062671e1" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a94725509e3590d16bd622794a8e805fe" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>period</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a23eb028d3f5f6a80432a7a396bbd7fa5" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>phy_in0</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a9c7ec0f61e02dd784e6cf288ad9f4c5e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>phy_in1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a14bd2cebf5fecb77d4bde683ba65b676" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>run</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a42671a35f76c23457f36a3217401e141" prot="private" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>run_uav</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1afb7b9d98e8bf0883f12e737b3d0b9899" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>set_master</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1af3dd8d518be135ad088868c5e1a28c75" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>set_period</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system_1a2ae070160fe7f0db0c6cb96302866e7e" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a9b8e19c275acb8e6cfd2a42a69bbf7a7" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>start</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1ad84a1f37613998282db28b42a17e9f84" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>stop</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1ad2c2c4cd57c54112b02655adcc0f9f7a" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>uav_system_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1adeb2dcd200156da9bb89319f7a4a9746" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>update_cache</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a92876f0c693142d2505ec501c4d01bcb" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>update_token</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1uav__system__impl_1a1bba1a08ae02664bb05ab8e4f2100822" prot="public" virt="non-virtual"><scope>gr::ieee802_11::uav_system_impl</scope><name>~uav_system_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

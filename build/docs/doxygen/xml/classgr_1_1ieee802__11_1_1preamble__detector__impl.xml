@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1preamble__detector__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::preamble_detector_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1preamble__detector" prot="public" virt="non-virtual">gr::ieee802_11::preamble_detector</basecompoundref>
+    <includes refid="preamble__detector__impl_8h" local="no">preamble_detector_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1aaed9fa874f1e5bb992fbd9d7478cb041" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::preamble_length</definition>
+        <argsstring></argsstring>
+        <name>preamble_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="21" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a7a33b7717cb8d4762198f5b8c5c1134e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::packet_length</definition>
+        <argsstring></argsstring>
+        <name>packet_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="22" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a863aaf77662dd188fd07684388853e9a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::num_of_packets</definition>
+        <argsstring></argsstring>
+        <name>num_of_packets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="23" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1ab8befba61573d8845940237984742800" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::samp_per_symb</definition>
+        <argsstring></argsstring>
+        <name>samp_per_symb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="24" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1abaaa832c7aa4b129a7eea46260b9f54f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::preamble_detector_impl::preamble_mode</definition>
+        <argsstring></argsstring>
+        <name>preamble_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="26" column="6" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1acefb04f5fc5f1471f2292cbb12292e5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::samples_sent</definition>
+        <argsstring></argsstring>
+        <name>samples_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="27" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a3ff238796dc66c9b51a99400aa2578d7" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream gr::ieee802_11::preamble_detector_impl::log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="28" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a2110e99d75646c087aa483a203d5f693" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::transient_counter</definition>
+        <argsstring></argsstring>
+        <name>transient_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="29" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a290c464a5e9f1c61872faf9a1e85b4ec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::preambles_received</definition>
+        <argsstring></argsstring>
+        <name>preambles_received</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="30" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a6038e620dfe5508de5e496a0ed86a489" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="31" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1ab8107d71c898763616d8bad0b7c775d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::preamble_detector_impl::preamble_detector_impl</definition>
+        <argsstring>()</argsstring>
+        <name>preamble_detector_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1af96f60a8404ee22c6787b42d408fba2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::preamble_detector_impl::~preamble_detector_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~preamble_detector_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1aab1168b8c1b1456580f76e9ade5a26b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::preamble_detector_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="38" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a8127b60c94fbd3a5aecd39f4c9d1aade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::preamble_detector_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="40" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::ieee802_11::preamble_detector</label>
+        <link refid="classgr_1_1ieee802__11_1_1preamble__detector"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::preamble_detector_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1preamble__detector__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::ieee802_11::preamble_detector</label>
+        <link refid="classgr_1_1ieee802__11_1_1preamble__detector"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::preamble_detector_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1preamble__detector__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" line="18" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/preamble_detector_impl.h" bodystart="17" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1aab1168b8c1b1456580f76e9ade5a26b3" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a8127b60c94fbd3a5aecd39f4c9d1aade" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a6038e620dfe5508de5e496a0ed86a489" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>history</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a3ff238796dc66c9b51a99400aa2578d7" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>log</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector_1a761614b0c44285c0dcbb1b791fde388c" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a863aaf77662dd188fd07684388853e9a" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>num_of_packets</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a7a33b7717cb8d4762198f5b8c5c1134e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>packet_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1ab8107d71c898763616d8bad0b7c775d1" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>preamble_detector_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1aaed9fa874f1e5bb992fbd9d7478cb041" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>preamble_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1abaaa832c7aa4b129a7eea46260b9f54f" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>preamble_mode</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a290c464a5e9f1c61872faf9a1e85b4ec" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>preambles_received</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1ab8befba61573d8845940237984742800" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>samp_per_symb</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1acefb04f5fc5f1471f2292cbb12292e5d" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>samples_sent</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector_1a0797b628a789f4cf0fa7d95d2d296939" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1a2110e99d75646c087aa483a203d5f693" prot="private" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>transient_counter</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1preamble__detector__impl_1af96f60a8404ee22c6787b42d408fba2c" prot="public" virt="non-virtual"><scope>gr::ieee802_11::preamble_detector_impl</scope><name>~preamble_detector_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

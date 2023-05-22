@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="frame__equalizer__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>frame_equalizer_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>frame_equalizer_pydoc_template.h</label>
+        <link refid="frame__equalizer__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="frame__equalizer__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,ieee802_11, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="10" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1a7c857ab678527486d0ed5f07eb9695d0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="19" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1a35284f8e092915ab0d53cb779eb488eb" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_frame_equalizer_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_frame_equalizer_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="22" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1ad3f2e18c480dee7dd63d0cb974d18692" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_frame_equalizer_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_frame_equalizer_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="25" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1a2a539175c4e86cbad237a77b5b516be5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="28" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1a2074b73e819eb440618ad95d844f488d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_set_algorithm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_set_algorithm</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="31" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1a63fcb2f3cb462b070e56f3eba3446f3d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_set_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_set_bandwidth</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="34" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="frame__equalizer__pydoc__template_8h_1aa76c16e5f403c2589aa5c456ae78bdfc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_frame_equalizer_set_frequency</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_frame_equalizer_set_frequency</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" line="37" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/frame_equalizer_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

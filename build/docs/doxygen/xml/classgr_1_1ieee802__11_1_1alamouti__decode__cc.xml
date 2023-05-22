@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1alamouti__decode__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::alamouti_decode_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc__impl" prot="public" virt="non-virtual">gr::ieee802_11::alamouti_decode_cc_impl</derivedcompoundref>
+    <includes refid="alamouti__decode__cc_8h" local="no">alamouti_decode_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1alamouti__decode__cc_1abf25f24ef7edf58b6d6b5090d87f9f65" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc" kindref="compound">alamouti_decode_cc</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;alamouti_decode_cc&gt; gr::ieee802_11::alamouti_decode_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" line="25" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__decode__cc_1a83da41395b4c3e26d3d23cd17a13df6d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc_1abf25f24ef7edf58b6d6b5090d87f9f65" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::alamouti_decode_cc::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" line="26" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_decode_cc</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::ieee802_11::alamouti_decode_cc_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_decode_cc</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" line="23" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc_1a83da41395b4c3e26d3d23cd17a13df6d" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_decode_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc_1abf25f24ef7edf58b6d6b5090d87f9f65" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_decode_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

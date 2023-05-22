@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1constellation__bpsk" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::constellation_bpsk</compoundname>
+    <basecompoundref prot="public" virt="virtual">constellation</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1constellation__bpsk__impl" prot="public" virt="non-virtual">gr::ieee802_11::constellation_bpsk_impl</derivedcompoundref>
+    <includes refid="constellations_8h" local="no">constellations.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1constellation__bpsk_1a9726595ce5537952b009abade1d91db6" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1constellation__bpsk" kindref="compound">gr::ieee802_11::constellation_bpsk</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;gr::ieee802_11::constellation_bpsk&gt; gr::ieee802_11::constellation_bpsk::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" line="30" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__bpsk_1ab2cdca661e189fb7d4b348610fcafe0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a9726595ce5537952b009abade1d91db6" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::constellation_bpsk::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" line="31" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__bpsk_1a50ec6c2e627cc699c26c42f3b2490345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a9726595ce5537952b009abade1d91db6" kindref="member">sptr</ref></type>
+        <definition>sptr gr::ieee802_11::constellation_bpsk::base</definition>
+        <argsstring>()</argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" line="32" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__bpsk_1a3a365bd2392a94aed403cce4e18d336d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::constellation_bpsk::constellation_bpsk</definition>
+        <argsstring>()</argsstring>
+        <name>constellation_bpsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" line="35" column="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::constellation_bpsk</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__bpsk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>digital::constellation</label>
+      </node>
+      <node id="3">
+        <label>gr::ieee802_11::constellation_bpsk_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__bpsk__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::constellation_bpsk</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__bpsk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>digital::constellation</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" line="28" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/constellations.h" bodystart="27" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a50ec6c2e627cc699c26c42f3b2490345" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_bpsk</scope><name>base</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a3a365bd2392a94aed403cce4e18d336d" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::constellation_bpsk</scope><name>constellation_bpsk</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1ab2cdca661e189fb7d4b348610fcafe0b" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_bpsk</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__bpsk_1a9726595ce5537952b009abade1d91db6" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_bpsk</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

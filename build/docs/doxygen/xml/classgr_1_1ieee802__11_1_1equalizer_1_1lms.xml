@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1equalizer_1_1lms" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::equalizer::lms</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1equalizer_1_1base" prot="public" virt="non-virtual">gr::ieee802_11::equalizer::base</basecompoundref>
+    <includes refid="lms_8h" local="no">lms.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a82551d426b166d3c09177cf2e83e268c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::ieee802_11::equalizer::lms::d_snr</definition>
+        <argsstring></argsstring>
+        <name>d_snr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" line="40" column="12" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a8d2528ed32bbcd5a84552ccef6384db3" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double gr::ieee802_11::equalizer::lms::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" line="41" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a35db34b0634d8ca8c34c574ac6cfea45" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::equalizer::lms::equalize</definition>
+        <argsstring>(gr_complex *in, int n, gr_complex *symbols, uint8_t *bits, std::shared_ptr&lt; gr::digital::constellation &gt; mod)</argsstring>
+        <name>equalize</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1a601251cfcf3cfe94a0575feea5c3ddf2">equalize</reimplements>
+        <param>
+          <type>gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; gr::digital::constellation &gt;</type>
+          <declname>mod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" line="31" column="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1ad2a5cf0f79ca96f4e09bb824b9e95327" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::ieee802_11::equalizer::lms::get_snr</definition>
+        <argsstring>()</argsstring>
+        <name>get_snr</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1aa9ae6dbc74377c875bf5c93703aa7617">get_snr</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" line="38" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::equalizer::lms</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::equalizer::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::equalizer::lms</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::equalizer::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1equalizer_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" line="29" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/lms.h" bodystart="28" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a8d2528ed32bbcd5a84552ccef6384db3" prot="private" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>alpha</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1af82df31644673f4abb0e4e80f809f580" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>d_H</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a82551d426b166d3c09177cf2e83e268c" prot="private" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>d_snr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1a35db34b0634d8ca8c34c574ac6cfea45" prot="public" virt="virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>equalize</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ab06e8532426f8b4710b12b75448756bf" prot="public" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>get_csi</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1lms_1ad2a5cf0f79ca96f4e09bb824b9e95327" prot="private" virt="virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>get_snr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac19b0e5e639eb4a79ddc33f98345940c" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>LONG</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac3cdb66ab95e8b646380a6ae5118ae52" prot="public" virt="non-virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>POLARITY</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1equalizer_1_1base_1ac157e3a93711b9c9148b4e740b26afb9" prot="public" virt="virtual"><scope>gr::ieee802_11::equalizer::lms</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

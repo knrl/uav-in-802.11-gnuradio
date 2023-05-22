@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1ofdm__mapper" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::ofdm_mapper</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1ofdm__mapper__impl" prot="public" virt="non-virtual">gr::ieee802_11::ofdm_mapper_impl</derivedcompoundref>
+    <includes refid="ofdm__mapper_8h" local="no">ofdm_mapper.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1ofdm__mapper_1ad4e11111ffc4c24f5d27a246932dcbb1" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1ofdm__mapper" kindref="compound">ofdm_mapper</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ofdm_mapper&gt; gr::ieee802_11::ofdm_mapper::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_mapper.h" line="25" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_mapper.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__mapper_1a89b742dc416e3f6f47b1527dee61aebf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1ofdm__mapper_1ad4e11111ffc4c24f5d27a246932dcbb1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::ofdm_mapper::make</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;constellation, unsigned int occupied_carriers, unsigned int fft_length)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_mapper.h" line="26" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::ieee802_11::ofdm_mapper_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__mapper__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_mapper</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__mapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_mapper</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__mapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_mapper.h" line="23" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/ofdm_mapper.h" bodystart="22" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__mapper_1a89b742dc416e3f6f47b1527dee61aebf" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_mapper</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__mapper_1ad4e11111ffc4c24f5d27a246932dcbb1" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_mapper</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

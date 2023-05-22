@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="frame__equalizer__impl_8h" kind="file" language="C++">
+    <compoundname>frame_equalizer_impl.h</compoundname>
+    <includes refid="equalizer_2base_8h" local="yes">equalizer/base.h</includes>
+    <includes refid="viterbi__decoder_8h" local="yes">viterbi_decoder/viterbi_decoder.h</includes>
+    <includes refid="constellations_8h" local="no">ieee802_11/constellations.h</includes>
+    <includes refid="frame__equalizer_8h" local="no">ieee802_11/frame_equalizer.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>ieee802_11/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ieee802_11/constellations.h</label>
+        <link refid="constellations_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/digital/constellation.h</label>
+      </node>
+      <node id="8">
+        <label>../utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>cinttypes</label>
+      </node>
+      <node id="1">
+        <label>frame_equalizer_impl.h</label>
+        <link refid="frame__equalizer__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>base.h</label>
+        <link refid="viterbi__decoder_2base_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="6">
+        <label>viterbi_decoder_generic.h</label>
+        <link refid="viterbi__decoder__generic_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ieee802_11/mapper.h</label>
+        <link refid="mapper_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="5">
+        <label>viterbi_decoder/viterbi_decoder.h</label>
+        <link refid="viterbi__decoder_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>equalizer/base.h</label>
+        <link refid="equalizer_2base_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>iostream</label>
+      </node>
+      <node id="9">
+        <label>gnuradio/config.h</label>
+      </node>
+      <node id="17">
+        <label>ieee802_11/frame_equalizer.h</label>
+        <link refid="frame__equalizer_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl" prot="public">gr::ieee802_11::frame_equalizer_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ieee802__11">gr::ieee802_11</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/frame_equalizer_impl.h"/>
+  </compounddef>
+</doxygen>

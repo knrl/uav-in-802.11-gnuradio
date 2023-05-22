@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_a26458abf56485ce204783fd58c398e3" kind="dir">
+    <compoundname>ieee802_11</compoundname>
+    <innerfile refid="alamouti__decode__cc_8h">alamouti_decode_cc.h</innerfile>
+    <innerfile refid="alamouti__encode__cc_8h">alamouti_encode_cc.h</innerfile>
+    <innerfile refid="alamouti__ofdm__rx_8h">alamouti_ofdm_rx.h</innerfile>
+    <innerfile refid="alamouti__ofdm__tx__cc_8h">alamouti_ofdm_tx_cc.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="chunks__to__symbols_8h">chunks_to_symbols.h</innerfile>
+    <innerfile refid="constellations_8h">constellations.h</innerfile>
+    <innerfile refid="decode__mac_8h">decode_mac.h</innerfile>
+    <innerfile refid="ether__encap_8h">ether_encap.h</innerfile>
+    <innerfile refid="extract__csi_8h">extract_csi.h</innerfile>
+    <innerfile refid="frame__equalizer_8h">frame_equalizer.h</innerfile>
+    <innerfile refid="mac_8h">mac.h</innerfile>
+    <innerfile refid="mapper_8h">mapper.h</innerfile>
+    <innerfile refid="my__strobe_8h">my_strobe.h</innerfile>
+    <innerfile refid="ofdm__demapper_8h">ofdm_demapper.h</innerfile>
+    <innerfile refid="ofdm__insert__preamble__tagged_8h">ofdm_insert_preamble_tagged.h</innerfile>
+    <innerfile refid="ofdm__mapper_8h">ofdm_mapper.h</innerfile>
+    <innerfile refid="ofdm__sampler_8h">ofdm_sampler.h</innerfile>
+    <innerfile refid="parse__mac_8h">parse_mac.h</innerfile>
+    <innerfile refid="preamble__detector_8h">preamble_detector.h</innerfile>
+    <innerfile refid="signal__field_8h">signal_field.h</innerfile>
+    <innerfile refid="sync__long_8h">sync_long.h</innerfile>
+    <innerfile refid="sync__short_8h">sync_short.h</innerfile>
+    <innerfile refid="uav__system_8h">uav_system.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/"/>
+  </compounddef>
+</doxygen>

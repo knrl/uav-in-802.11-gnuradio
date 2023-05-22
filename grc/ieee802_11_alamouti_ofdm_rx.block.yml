@@ -1,0 +1,38 @@
+id: ieee802_11_alamouti_ofdm_rx
+label: Alamouti OFDM Decoder
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.alamouti_ofdm_rx(${occupied_carriers}, ${fft_length}, ${cplen})
+parameters:
+  - id: occupied_carriers
+    label: Occupied Carriers
+    dtype: raw
+  - id: fft_length
+    label: FFT Length
+    dtype: raw
+  - id: cplen
+    label: CP Length
+    dtype: raw
+inputs:
+  - label: flag
+    domain: stream
+    dtype: byte
+    vlen: ${fft_length}
+  - label: in0
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+  - label: in1
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+outputs:
+  - label: flag
+    domain: stream
+    dtype: byte
+  - label: out
+    domain: stream
+    dtype: complex
+    vlen: ${occupied_carriers}
+file_format: 1

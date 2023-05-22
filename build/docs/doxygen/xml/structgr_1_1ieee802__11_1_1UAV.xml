@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structgr_1_1ieee802__11_1_1UAV" kind="struct" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::UAV</compoundname>
+    <includes refid="uav__system__impl_8h" local="no">uav_system_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1UAV_1a7af0ecb5271e228124324c987f2ba7ea" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::UAV::mac_addr[MAC_ADDR_SIZE]</definition>
+        <argsstring>[MAC_ADDR_SIZE]</argsstring>
+        <name>mac_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="33" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1UAV_1a5a758ae3dc067c84b3854a2d87534647" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structgr_1_1ieee802__11_1_1Position" kindref="compound">Position</ref></type>
+        <definition>struct Position gr::ieee802_11::UAV::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="33" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::UAV</label>
+        <link refid="structgr_1_1ieee802__11_1_1UAV"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pos</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::Position</label>
+        <link refid="structgr_1_1ieee802__11_1_1Position"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="32" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structgr_1_1ieee802__11_1_1UAV_1a7af0ecb5271e228124324c987f2ba7ea" prot="public" virt="non-virtual"><scope>gr::ieee802_11::UAV</scope><name>mac_addr</name></member>
+      <member refid="structgr_1_1ieee802__11_1_1UAV_1a5a758ae3dc067c84b3854a2d87534647" prot="public" virt="non-virtual"><scope>gr::ieee802_11::UAV</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

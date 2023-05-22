@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="alamouti__decode__cc_8h" local="no">alamouti_decode_cc.h</includedby>
+    <includedby refid="alamouti__encode__cc_8h" local="no">alamouti_encode_cc.h</includedby>
+    <includedby refid="alamouti__ofdm__rx_8h" local="no">alamouti_ofdm_rx.h</includedby>
+    <includedby refid="alamouti__ofdm__tx__cc_8h" local="no">alamouti_ofdm_tx_cc.h</includedby>
+    <includedby refid="chunks__to__symbols_8h" local="no">chunks_to_symbols.h</includedby>
+    <includedby refid="constellations_8h" local="no">constellations.h</includedby>
+    <includedby refid="decode__mac_8h" local="no">decode_mac.h</includedby>
+    <includedby refid="ether__encap_8h" local="no">ether_encap.h</includedby>
+    <includedby refid="extract__csi_8h" local="no">extract_csi.h</includedby>
+    <includedby refid="frame__equalizer_8h" local="no">frame_equalizer.h</includedby>
+    <includedby refid="mac_8h" local="no">mac.h</includedby>
+    <includedby refid="mapper_8h" local="no">mapper.h</includedby>
+    <includedby refid="my__strobe_8h" local="no">my_strobe.h</includedby>
+    <includedby refid="ofdm__demapper_8h" local="no">ofdm_demapper.h</includedby>
+    <includedby refid="ofdm__insert__preamble__tagged_8h" local="no">ofdm_insert_preamble_tagged.h</includedby>
+    <includedby refid="ofdm__mapper_8h" local="no">ofdm_mapper.h</includedby>
+    <includedby refid="ofdm__sampler_8h" local="no">ofdm_sampler.h</includedby>
+    <includedby refid="parse__mac_8h" local="no">parse_mac.h</includedby>
+    <includedby refid="preamble__detector_8h" local="no">preamble_detector.h</includedby>
+    <includedby refid="signal__field_8h" local="no">signal_field.h</includedby>
+    <includedby refid="sync__long_8h" local="no">sync_long.h</includedby>
+    <includedby refid="sync__short_8h" local="no">sync_short.h</includedby>
+    <includedby refid="uav__system_8h" local="no">uav_system.h</includedby>
+    <includedby refid="utils_8h" local="no">utils.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="41">
+        <label>preamble_detector_impl.h</label>
+        <link refid="preamble__detector__impl_8h"/>
+      </node>
+      <node id="27">
+        <label>viterbi_decoder_x86.h</label>
+        <link refid="viterbi__decoder__x86_8h"/>
+      </node>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>ether_encap_impl.h</label>
+        <link refid="ether__encap__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>my_strobe.h</label>
+        <link refid="my__strobe_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mac.h</label>
+        <link refid="mac_8h"/>
+      </node>
+      <node id="10">
+        <label>chunks_to_symbols.h</label>
+        <link refid="chunks__to__symbols_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>constellations.h</label>
+        <link refid="constellations_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>chunks_to_symbols_impl.h</label>
+        <link refid="chunks__to__symbols__impl_8h"/>
+      </node>
+      <node id="31">
+        <label>ofdm_demapper.h</label>
+        <link refid="ofdm__demapper_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>extract_csi.h</label>
+        <link refid="extract__csi_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>alamouti_decode_cc_impl.h</label>
+        <link refid="alamouti__decode__cc__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>alamouti_ofdm_tx_cc_impl.h</label>
+        <link refid="alamouti__ofdm__tx__cc__impl_8h"/>
+      </node>
+      <node id="32">
+        <label>ofdm_demapper_impl.h</label>
+        <link refid="ofdm__demapper__impl_8h"/>
+      </node>
+      <node id="36">
+        <label>ofdm_mapper_impl.h</label>
+        <link refid="ofdm__mapper__impl_8h"/>
+      </node>
+      <node id="19">
+        <label>extract_csi_impl.h</label>
+        <link refid="extract__csi__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>alamouti_encode_cc_impl.h</label>
+        <link refid="alamouti__encode__cc__impl_8h"/>
+      </node>
+      <node id="23">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>frame_equalizer_impl.h</label>
+        <link refid="frame__equalizer__impl_8h"/>
+      </node>
+      <node id="24">
+        <label>base.h</label>
+        <link refid="viterbi__decoder_2base_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>signal_field_impl.h</label>
+        <link refid="signal__field__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>alamouti_decode_cc.h</label>
+        <link refid="alamouti__decode__cc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>decode_mac.h</label>
+        <link refid="decode__mac_8h"/>
+      </node>
+      <node id="39">
+        <label>parse_mac.h</label>
+        <link refid="parse__mac_8h_source"/>
+      </node>
+      <node id="25">
+        <label>viterbi_decoder_generic.h</label>
+        <link refid="viterbi__decoder__generic_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>my_strobe_impl.h</label>
+        <link refid="my__strobe__impl_8h"/>
+      </node>
+      <node id="22">
+        <label>mapper.h</label>
+        <link refid="mapper_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>sync_short.h</label>
+        <link refid="sync__short_8h"/>
+      </node>
+      <node id="43">
+        <label>sync_long.h</label>
+        <link refid="sync__long_8h"/>
+      </node>
+      <node id="26">
+        <label>viterbi_decoder.h</label>
+        <link refid="viterbi__decoder_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>ofdm_insert_preamble_tagged_impl.h</label>
+        <link refid="ofdm__insert__preamble__tagged__impl_8h"/>
+      </node>
+      <node id="45">
+        <label>uav_system.h</label>
+        <link refid="uav__system_8h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>constellations_impl.h</label>
+        <link refid="constellations__impl_8h"/>
+      </node>
+      <node id="4">
+        <label>alamouti_encode_cc.h</label>
+        <link refid="alamouti__encode__cc_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>alamouti_ofdm_tx_cc.h</label>
+        <link refid="alamouti__ofdm__tx__cc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>uav_system_impl.h</label>
+        <link refid="uav__system__impl_8h"/>
+      </node>
+      <node id="33">
+        <label>ofdm_insert_preamble_tagged.h</label>
+        <link refid="ofdm__insert__preamble__tagged_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ether_encap.h</label>
+        <link refid="ether__encap_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>alamouti_ofdm_rx.h</label>
+        <link refid="alamouti__ofdm__rx_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>ofdm_sampler_impl.h</label>
+        <link refid="ofdm__sampler__impl_8h"/>
+      </node>
+      <node id="42">
+        <label>signal_field.h</label>
+        <link refid="signal__field_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>ofdm_mapper.h</label>
+        <link refid="ofdm__mapper_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>ofdm_sampler.h</label>
+        <link refid="ofdm__sampler_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>preamble_detector.h</label>
+        <link refid="preamble__detector_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>frame_equalizer.h</label>
+        <link refid="frame__equalizer_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>alamouti_ofdm_rx_impl.h</label>
+        <link refid="alamouti__ofdm__rx__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a7e9ce28769175ede72c53653f6fb9534" prot="public" static="no">
+        <name>IEEE802_11_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/api.h" line="19" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/api.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/api.h"/>
+  </compounddef>
+</doxygen>

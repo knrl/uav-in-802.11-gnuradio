@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="constellations__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>constellations_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+      <node id="1">
+        <label>constellations_pydoc_template.h</label>
+        <link refid="constellations__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="constellations__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,ieee802_11, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="10" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1aa3fd2b06683c2cd7e5fcf19a436cc4f7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_bpsk</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_bpsk</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="19" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1af0b34529f01fa2b3e6bcb57fa762b236" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_bpsk_constellation_bpsk</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_bpsk_constellation_bpsk</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="22" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a8123ab0bb2bc135e13e24fd19f658c4d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_bpsk_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_bpsk_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="25" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1abc6b834505e5e9cbf5de4f9686573517" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_bpsk_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_bpsk_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="28" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a30a1ce15a9f5830e4167a095a5f6ac1d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_qpsk</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_qpsk</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="31" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a0719b75adfa8a16e903d1d691fa168de" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_qpsk_constellation_qpsk</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_qpsk_constellation_qpsk</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="34" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a9ee8f35ec304c4a6cfa9c3a361ae8189" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_qpsk_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_qpsk_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="37" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a78d6f212716f015e48bf10b7488d5e9f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_qpsk_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_qpsk_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="40" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a9d69440950d6c3768e9400ff6d9062e9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_16qam</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_16qam</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="43" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a9c0e5b8facfe6355b5b36e3774eee173" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_16qam_constellation_16qam</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_16qam_constellation_16qam</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="46" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1ab1420e24ab468652b55da974584f79fa" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_16qam_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_16qam_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="49" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1ae030f5e797bc1cebb57865678732e674" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_16qam_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_16qam_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="52" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a5bfa00dceb929c7c745dd46a1800c053" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_64qam</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_64qam</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="55" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1a3ed139a0905fadae3d0c4460e69d43e3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_64qam_constellation_64qam</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_64qam_constellation_64qam</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="58" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1aee047511be64a6a0baaf59105a20702a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_64qam_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_64qam_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="61" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constellations__pydoc__template_8h_1ac668dd6e1024c55e90315c8a75ba7013" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_ieee802_11_constellation_64qam_base</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_ieee802_11_constellation_64qam_base</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" line="64" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/constellations_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1frame__equalizer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ieee802_11::frame_equalizer</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl" prot="public" virt="virtual">gr::ieee802_11::frame_equalizer_impl</derivedcompoundref>
+    <includes refid="frame__equalizer_8h" local="no">frame_equalizer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1frame__equalizer_1aedc61794cdf8e665d75b3f2cb1f9bb8a" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1frame__equalizer" kindref="compound">frame_equalizer</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;frame_equalizer&gt; gr::ieee802_11::frame_equalizer::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="41" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1frame__equalizer_1aa9e014ea3cbc300f1a21de401695a8fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1frame__equalizer_1aedc61794cdf8e665d75b3f2cb1f9bb8a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::frame_equalizer::make</definition>
+        <argsstring>(Equalizer algo, double freq, double bw, bool log, bool debug)</argsstring>
+        <name>make</name>
+        <param>
+          <type><ref refid="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94" kindref="member">Equalizer</ref></type>
+          <declname>algo</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bw</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>log</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="42" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1frame__equalizer_1a0f11dbc15f18f457a45b58ecf69f171d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::frame_equalizer::set_algorithm</definition>
+        <argsstring>(Equalizer algo)=0</argsstring>
+        <name>set_algorithm</name>
+        <reimplementedby refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl_1a9592e0a47f1d17158c38b7efdd77385b">set_algorithm</reimplementedby>
+        <param>
+          <type><ref refid="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94" kindref="member">Equalizer</ref></type>
+          <declname>algo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="43" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1frame__equalizer_1ad2ef3895bbb07a0ed1869789f2567129" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::frame_equalizer::set_bandwidth</definition>
+        <argsstring>(double bw)=0</argsstring>
+        <name>set_bandwidth</name>
+        <reimplementedby refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl_1a46e1086d8ae191a6d96a8e0e65615d4d">set_bandwidth</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="44" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1frame__equalizer_1aa3f3835bc92a9112e7767f20622f1830" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::frame_equalizer::set_frequency</definition>
+        <argsstring>(double freq)=0</argsstring>
+        <name>set_frequency</name>
+        <reimplementedby refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl_1aa924b7220612051c1c1d6fc8d04b51b4">set_frequency</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="45" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::frame_equalizer</label>
+        <link refid="classgr_1_1ieee802__11_1_1frame__equalizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::ieee802_11::frame_equalizer_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::frame_equalizer</label>
+        <link refid="classgr_1_1ieee802__11_1_1frame__equalizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="38" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" bodystart="37" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1frame__equalizer_1aa9e014ea3cbc300f1a21de401695a8fa" prot="public" virt="non-virtual"><scope>gr::ieee802_11::frame_equalizer</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1frame__equalizer_1a0f11dbc15f18f457a45b58ecf69f171d" prot="public" virt="pure-virtual"><scope>gr::ieee802_11::frame_equalizer</scope><name>set_algorithm</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1frame__equalizer_1ad2ef3895bbb07a0ed1869789f2567129" prot="public" virt="pure-virtual"><scope>gr::ieee802_11::frame_equalizer</scope><name>set_bandwidth</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1frame__equalizer_1aa3f3835bc92a9112e7767f20622f1830" prot="public" virt="pure-virtual"><scope>gr::ieee802_11::frame_equalizer</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1frame__equalizer_1aedc61794cdf8e665d75b3f2cb1f9bb8a" prot="public" virt="non-virtual"><scope>gr::ieee802_11::frame_equalizer</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

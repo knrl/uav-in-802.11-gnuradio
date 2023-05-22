@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1viterbi__decoder" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::viterbi_decoder</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1base" prot="public" virt="non-virtual">gr::ieee802_11::base</basecompoundref>
+    <includes refid="viterbi__decoder__generic_8h" local="no">viterbi_decoder_generic.h</includes>
+    <innerclass refid="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27" prot="private">gr::ieee802_11::viterbi_decoder::branchtab27</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a149e08f42449db78fd1601c8d224bf16" prot="private" static="no" mutable="no">
+        <type>union gr::ieee802_11::viterbi_decoder::branchtab27</type>
+        <definition>union gr::ieee802_11::viterbi_decoder::branchtab27 gr::ieee802_11::viterbi_decoder::d_branchtab27_generic[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>d_branchtab27_generic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="38" column="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a6164c1bae9175ec064dd83598b696d99" prot="private" static="no" mutable="no">
+        <type>union gr::ieee802_11::viterbi_decoder::branchtab27</type>
+        <definition>union gr::ieee802_11::viterbi_decoder::branchtab27 gr::ieee802_11::viterbi_decoder::d_branchtab27_sse2[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>d_branchtab27_sse2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="40" column="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4fbb0891bcd59530a4a2f99e655c0773" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint8_t *</type>
+        <definition>virtual uint8_t* gr::ieee802_11::viterbi_decoder::decode</definition>
+        <argsstring>(ofdm_param *ofdm, frame_param *frame, uint8_t *in)</argsstring>
+        <name>decode</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1base_1a8390883a53762dc9d40fe28a235ec879">decode</reimplements>
+        <param>
+          <type><ref refid="classofdm__param" kindref="compound">ofdm_param</ref> *</type>
+          <declname>ofdm</declname>
+        </param>
+        <param>
+          <type><ref refid="classframe__param" kindref="compound">frame_param</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="33" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4fbb0891bcd59530a4a2f99e655c0773" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint8_t *</type>
+        <definition>virtual uint8_t* gr::ieee802_11::viterbi_decoder::decode</definition>
+        <argsstring>(ofdm_param *ofdm, frame_param *frame, uint8_t *in)</argsstring>
+        <name>decode</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1base_1a8390883a53762dc9d40fe28a235ec879">decode</reimplements>
+        <param>
+          <type><ref refid="classofdm__param" kindref="compound">ofdm_param</ref> *</type>
+          <declname>ofdm</declname>
+        </param>
+        <param>
+          <type><ref refid="classframe__param" kindref="compound">frame_param</ref> *</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="34" column="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4705adac41fe928d8402f2a2209a8500" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char d_metric0_generic[64]</type>
+        <definition>unsigned char d_metric0_generic [64] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="40" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a73beba0c36d6ef363973e4a17e6b5aa9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char d_metric1_generic[64]</type>
+        <definition>unsigned char d_metric1_generic [64] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="41" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a15e278d20305a918739cdd079f68a420" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char d_path0_generic[64]</type>
+        <definition>unsigned char d_path0_generic [64] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="42" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1aac1e9a0cc6807ed815acb8faee2e99c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char d_path1_generic[64]</type>
+        <definition>unsigned char d_path1_generic [64] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="43" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1adb439e1c16b5cd2eaf7e7e615206cf8d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::viterbi_decoder::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1base_1aff3e853b2c00c803c2ae2a83a951bf05">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a5319507820f1483ffbfadbf1d4af4ab7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::viterbi_decoder::viterbi_chunks_init_generic</definition>
+        <argsstring>()</argsstring>
+        <name>viterbi_chunks_init_generic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="47" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a135edb50f1c7447d88e00cc1aef7b0be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::viterbi_decoder::viterbi_butterfly2_generic</definition>
+        <argsstring>(unsigned char *symbols, unsigned char m0[], unsigned char m1[], unsigned char p0[], unsigned char p1[])</argsstring>
+        <name>viterbi_butterfly2_generic</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>m0</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>m1</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>p0</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>p1</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1ac180ac8b9158a374bc608fc05df3afdc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ieee802_11::viterbi_decoder::viterbi_get_output_generic</definition>
+        <argsstring>(unsigned char *mm0, unsigned char *pp0, int ntraceback, unsigned char *outbuf)</argsstring>
+        <name>viterbi_get_output_generic</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>mm0</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>pp0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ntraceback</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>outbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="53" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4ced69fc42917c81fc6fb7924df072a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__m128i d_metric0[4]</type>
+        <definition>__m128i d_metric0 [4] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="42" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a9170af58036807fb553e4dd1f0cf4476" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__m128i d_metric1[4]</type>
+        <definition>__m128i d_metric1 [4] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="43" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a299997b0f66e7808c27769d0fc107c45" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__m128i d_path0[4]</type>
+        <definition>__m128i d_path0 [4] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="44" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a9a6fdf24213baf3a3365884617837dec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__m128i d_path1[4]</type>
+        <definition>__m128i d_path1 [4] gr::ieee802_11::viterbi_decoder::__attribute__</definition>
+        <argsstring>((aligned(16)))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(aligned(16))</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="45" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a5cfab72da3d822f2593fd066fb9900da" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::ieee802_11::viterbi_decoder::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classgr_1_1ieee802__11_1_1base_1aff3e853b2c00c803c2ae2a83a951bf05">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="47" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a369b1980c8eec8b8448850fe8cc9c8ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::viterbi_decoder::viterbi_chunks_init_sse2</definition>
+        <argsstring>()</argsstring>
+        <name>viterbi_chunks_init_sse2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1aed1f0ad44818c2837e55f93b1b99a2b8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::viterbi_decoder::viterbi_butterfly2_sse2</definition>
+        <argsstring>(unsigned char *symbols, __m128i m0[], __m128i m1[], __m128i p0[], __m128i p1[])</argsstring>
+        <name>viterbi_butterfly2_sse2</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>__m128i</type>
+          <declname>m0</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>__m128i</type>
+          <declname>m1</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>__m128i</type>
+          <declname>p0</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>__m128i</type>
+          <declname>p1</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1viterbi__decoder_1a7875ce5615523e4b2b4909419884ab1f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ieee802_11::viterbi_decoder::viterbi_get_output_sse2</definition>
+        <argsstring>(__m128i *mm0, __m128i *pp0, int ntraceback, unsigned char *outbuf)</argsstring>
+        <name>viterbi_get_output_sse2</name>
+        <param>
+          <type>__m128i *</type>
+          <declname>mm0</declname>
+        </param>
+        <param>
+          <type>__m128i *</type>
+          <declname>pp0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ntraceback</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>outbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="52" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::viterbi_decoder</label>
+        <link refid="classgr_1_1ieee802__11_1_1viterbi__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::viterbi_decoder</label>
+        <link refid="classgr_1_1ieee802__11_1_1viterbi__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Encoding</label>
+      </node>
+      <node id="5">
+        <label>frame_param</label>
+        <link refid="classframe__param"/>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::base</label>
+        <link refid="classgr_1_1ieee802__11_1_1base"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_ofdm</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_frame</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ofdm_param</label>
+        <link refid="classofdm__param"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>encoding</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="31" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" bodystart="30" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4705adac41fe928d8402f2a2209a8500" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a73beba0c36d6ef363973e4a17e6b5aa9" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a15e278d20305a918739cdd079f68a420" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1aac1e9a0cc6807ed815acb8faee2e99c4" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4ced69fc42917c81fc6fb7924df072a2" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a9170af58036807fb553e4dd1f0cf4476" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a299997b0f66e7808c27769d0fc107c45" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a9a6fdf24213baf3a3365884617837dec" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>__attribute__</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1ac903259f3638ea0655f07ed3535ec42c" prot="public" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>base</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a149e08f42449db78fd1601c8d224bf16" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_branchtab27_generic</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a6164c1bae9175ec064dd83598b696d99" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_branchtab27_sse2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a991b3c480ceddb1d3202358f1e18fe5e" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_decoded</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1ad347f7520de9dfc915ad92a00a20dfd2" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_depuncture_pattern</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1ae8c707757b9f014a603629b6e2dfa0bd" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_depunctured</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a56ed48453bf1f3da42f5b648780cff38" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_frame</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a7b65e9cc4b6e251cca08b756b88d6242" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_k</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a167d24ed4dd5c7cc79b815c6f88660c5" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_ntraceback</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1ac5f274cf1d72b6e4d5f97045d77d5061" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_ofdm</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a19451c4e098c714c7cca86fd84017384" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>d_store_pos</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4fbb0891bcd59530a4a2f99e655c0773" prot="public" virt="virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>decode</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a4fbb0891bcd59530a4a2f99e655c0773" prot="public" virt="virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>decode</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a86f17c2f3464b30d521fd13631ff457a" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>depuncture</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a67249ec98c4f494fca6ee9a79f6304ac" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>PARTAB</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a3f81d8811582717fff614fdd743931ea" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>PUNCTURE_1_2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a6d6d08f56bd25d7365125000497b6a9f" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>PUNCTURE_2_3</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a302ffbc7e8afc24e6e6a096f0b12ada2" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>PUNCTURE_3_4</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1adb439e1c16b5cd2eaf7e7e615206cf8d" prot="private" virt="virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>reset</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a5cfab72da3d822f2593fd066fb9900da" prot="private" virt="virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>reset</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a135edb50f1c7447d88e00cc1aef7b0be" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_butterfly2_generic</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1aed1f0ad44818c2837e55f93b1b99a2b8" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_butterfly2_sse2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a5319507820f1483ffbfadbf1d4af4ab7" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_chunks_init_generic</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a369b1980c8eec8b8448850fe8cc9c8ff" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_chunks_init_sse2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1ac180ac8b9158a374bc608fc05df3afdc" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_get_output_generic</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1viterbi__decoder_1a7875ce5615523e4b2b4909419884ab1f" prot="private" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>viterbi_get_output_sse2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1base_1a247a43c43404e2ebebf9cc35ab2efaf0" prot="public" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

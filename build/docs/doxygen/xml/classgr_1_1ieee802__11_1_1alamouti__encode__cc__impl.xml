@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::alamouti_encode_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc" prot="public" virt="non-virtual">gr::ieee802_11::alamouti_encode_cc</basecompoundref>
+    <includes refid="alamouti__encode__cc__impl_8h" local="no">alamouti_encode_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a0fcc74b9adc02897b49f479ce842c240" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::payload_length</definition>
+        <argsstring></argsstring>
+        <name>payload_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="20" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aee88c7cb8c8bdab27aedc97427180ca8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::pilot_length</definition>
+        <argsstring></argsstring>
+        <name>pilot_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="21" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad9f6866c8785f78597e79fe633407bca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::num_of_packs</definition>
+        <argsstring></argsstring>
+        <name>num_of_packs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="22" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aa2fd59402d7ddd74e47fe98b319f027c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::preamble_length</definition>
+        <argsstring></argsstring>
+        <name>preamble_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="23" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad4419609d66ea7dc84368136cdd64767" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::ieee802_11::alamouti_encode_cc_impl::pilot_symbol[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>pilot_symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="25" column="12" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1abbc456777a75beebae9b7e9cf046cdd3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::preamble[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>preamble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="26" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a39ac3c130f7306fd030a3c3134beba44" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::packets_sent</definition>
+        <argsstring></argsstring>
+        <name>packets_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="29" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a766b42d70195a2c0bd823fc644edeeb0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::symbols_sent</definition>
+        <argsstring></argsstring>
+        <name>symbols_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="30" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a47f3c5143a86059de394c670cc21581f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::pilots_sent</definition>
+        <argsstring></argsstring>
+        <name>pilots_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="31" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1af8b5fcf43cb8327ec71fc2fd61426e6f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::preambles_sent</definition>
+        <argsstring></argsstring>
+        <name>preambles_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="32" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad2129d1c2d767471aab72e20088ed09e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="33" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a5b40b7073298bf10352e3ba7d507ed6a" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream gr::ieee802_11::alamouti_encode_cc_impl::log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="34" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ab81805eaf969d1709236cd8c92cd7c74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_encode_cc_impl::send_pilot</definition>
+        <argsstring>(int &amp;generated_outputs, const int noutput_items, gr_complex *out0, gr_complex *out1)</argsstring>
+        <name>send_pilot</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>generated_outputs</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out0</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="36" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a8fbc574b649d038c1d7eb075cfea26ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_encode_cc_impl::send_preamble</definition>
+        <argsstring>(int &amp;generated_outputs, const int noutput_items, gr_complex *out0, gr_complex *out1)</argsstring>
+        <name>send_preamble</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>generated_outputs</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out0</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="38" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a1df0a44365e1729fffcfff1281711e0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::alamouti_encode_cc_impl::alamouti_encode_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>alamouti_encode_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a31cf709ee1064bc62224a36cad0dfd95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::alamouti_encode_cc_impl::~alamouti_encode_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~alamouti_encode_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="43" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aa367fb028cb814ec7f6851bd9c9cf901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_encode_cc_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1af0db0e91f2f3c092667dee9232f80a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_encode_cc_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="48" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::alamouti_encode_cc</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_encode_cc_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::alamouti_encode_cc</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_encode_cc_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" line="18" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_encode_cc_impl.h" bodystart="17" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a1df0a44365e1729fffcfff1281711e0a" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>alamouti_encode_cc_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aa367fb028cb814ec7f6851bd9c9cf901" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1af0db0e91f2f3c092667dee9232f80a12" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a5b40b7073298bf10352e3ba7d507ed6a" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>log</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc_1a7a4d86540837278db688268cb27faedf" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad9f6866c8785f78597e79fe633407bca" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>num_of_packs</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a39ac3c130f7306fd030a3c3134beba44" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>packets_sent</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a0fcc74b9adc02897b49f479ce842c240" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>payload_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aee88c7cb8c8bdab27aedc97427180ca8" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>pilot_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad4419609d66ea7dc84368136cdd64767" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>pilot_symbol</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a47f3c5143a86059de394c670cc21581f" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>pilots_sent</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1abbc456777a75beebae9b7e9cf046cdd3" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>preamble</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1aa2fd59402d7ddd74e47fe98b319f027c" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>preamble_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1af8b5fcf43cb8327ec71fc2fd61426e6f" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>preambles_sent</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ab81805eaf969d1709236cd8c92cd7c74" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>send_pilot</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a8fbc574b649d038c1d7eb075cfea26ed" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>send_preamble</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc_1a3e12520ce3da1a35bcc35ad9b8c83422" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1ad2129d1c2d767471aab72e20088ed09e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>state</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a766b42d70195a2c0bd823fc644edeeb0" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>symbols_sent</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl_1a31cf709ee1064bc62224a36cad0dfd95" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_encode_cc_impl</scope><name>~alamouti_encode_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

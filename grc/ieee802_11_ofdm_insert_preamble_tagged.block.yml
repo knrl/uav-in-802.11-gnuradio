@@ -1,0 +1,24 @@
+id: ieee802_11_ofdm_insert_preamble_tagged
+label: OFDM Insert Preamble Tagged
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.ofdm_insert_preamble_tagged(${fft_length}, ${preamble})
+parameters:
+  - id: fft_length
+    label: FFT Length
+    dtype: int
+  - id: preamble
+    label: Preamble
+    dtype: raw
+inputs:
+  - label: in
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+    vlen: ${fft_length}
+file_format: 1

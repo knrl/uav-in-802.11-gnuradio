@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structgr_1_1ieee802__11_1_1ethernet__header" kind="struct" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::ethernet_header</compoundname>
+    <includes refid="ether__encap__impl_8h" local="no">ether_encap_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1ethernet__header_1a68af9a1aba02722b087db961ed89a272" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::ethernet_header::dest[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>dest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="26" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1ethernet__header_1a4985ef9bcd2d335cf9fb718a58b85dfd" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::ethernet_header::src[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="27" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1ethernet__header_1abc3dfb2ba38701b4bac7725fac940926" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::ieee802_11::ethernet_header::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="28" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="25" column="22" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="25" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structgr_1_1ieee802__11_1_1ethernet__header_1a68af9a1aba02722b087db961ed89a272" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ethernet_header</scope><name>dest</name></member>
+      <member refid="structgr_1_1ieee802__11_1_1ethernet__header_1a4985ef9bcd2d335cf9fb718a58b85dfd" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ethernet_header</scope><name>src</name></member>
+      <member refid="structgr_1_1ieee802__11_1_1ethernet__header_1abc3dfb2ba38701b4bac7725fac940926" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ethernet_header</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classframe__param" kind="class" language="C++" prot="public">
+    <compoundname>frame_param</compoundname>
+    <includes refid="utils_8h" local="no">utils.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classframe__param_1a35699394ef1b921d8ab37d3342f70045" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int frame_param::psdu_size</definition>
+        <argsstring></argsstring>
+        <name>psdu_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="81" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classframe__param_1a2f483e1ac267f99a92566599fc7e7b50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int frame_param::n_sym</definition>
+        <argsstring></argsstring>
+        <name>n_sym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="83" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classframe__param_1aa843a72686fa5cf67d46bcedbde4a61d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int frame_param::n_pad</definition>
+        <argsstring></argsstring>
+        <name>n_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="85" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classframe__param_1a429360d93c51a2644f9ffea4cd615b10" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int frame_param::n_encoded_bits</definition>
+        <argsstring></argsstring>
+        <name>n_encoded_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="86" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classframe__param_1a7eb00eb72ceaa2c7a963c7500e6994e2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int frame_param::n_data_bits</definition>
+        <argsstring></argsstring>
+        <name>n_data_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="88" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classframe__param_1aec575543b14e3f5703a0ff8cdd350860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>frame_param::frame_param</definition>
+        <argsstring>(ofdm_param &amp;ofdm, int psdu_length)</argsstring>
+        <name>frame_param</name>
+        <param>
+          <type><ref refid="classofdm__param" kindref="compound">ofdm_param</ref> &amp;</type>
+          <declname>ofdm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>psdu_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="79" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classframe__param_1af06e7cd76a89ae414137275ee45b9a51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void frame_param::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="90" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>packet specific parameters </para>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="77" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="76" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classframe__param_1aec575543b14e3f5703a0ff8cdd350860" prot="public" virt="non-virtual"><scope>frame_param</scope><name>frame_param</name></member>
+      <member refid="classframe__param_1a7eb00eb72ceaa2c7a963c7500e6994e2" prot="public" virt="non-virtual"><scope>frame_param</scope><name>n_data_bits</name></member>
+      <member refid="classframe__param_1a429360d93c51a2644f9ffea4cd615b10" prot="public" virt="non-virtual"><scope>frame_param</scope><name>n_encoded_bits</name></member>
+      <member refid="classframe__param_1aa843a72686fa5cf67d46bcedbde4a61d" prot="public" virt="non-virtual"><scope>frame_param</scope><name>n_pad</name></member>
+      <member refid="classframe__param_1a2f483e1ac267f99a92566599fc7e7b50" prot="public" virt="non-virtual"><scope>frame_param</scope><name>n_sym</name></member>
+      <member refid="classframe__param_1af06e7cd76a89ae414137275ee45b9a51" prot="public" virt="non-virtual"><scope>frame_param</scope><name>print</name></member>
+      <member refid="classframe__param_1a35699394ef1b921d8ab37d3342f70045" prot="public" virt="non-virtual"><scope>frame_param</scope><name>psdu_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

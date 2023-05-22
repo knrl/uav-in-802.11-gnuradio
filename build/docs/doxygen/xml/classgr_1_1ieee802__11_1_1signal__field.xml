@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1signal__field" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::signal_field</compoundname>
+    <basecompoundref prot="public" virt="virtual">packet_header_default</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ieee802__11_1_1signal__field__impl" prot="public" virt="non-virtual">gr::ieee802_11::signal_field_impl</derivedcompoundref>
+    <includes refid="signal__field_8h" local="no">signal_field.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ieee802__11_1_1signal__field_1a46aeec62d9df5855688f607ff73cf8fe" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1ieee802__11_1_1signal__field" kindref="compound">signal_field</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;signal_field&gt; gr::ieee802_11::signal_field::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" line="31" column="29" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field_1ac35468cb0369664d58e03ef27a6c9db4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ieee802__11_1_1signal__field_1a46aeec62d9df5855688f607ff73cf8fe" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ieee802_11::signal_field::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" line="32" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1signal__field_1aaf247d831328762dc0216877466f67ab" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::signal_field::signal_field</definition>
+        <argsstring>()</argsstring>
+        <name>signal_field</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" line="35" column="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::ieee802_11::signal_field_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::signal_field</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>digital::packet_header_default</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::signal_field</label>
+        <link refid="classgr_1_1ieee802__11_1_1signal__field"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>digital::packet_header_default</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" line="29" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/signal_field.h" bodystart="28" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1ac35468cb0369664d58e03ef27a6c9db4" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1aaf247d831328762dc0216877466f67ab" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::signal_field</scope><name>signal_field</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1signal__field_1a46aeec62d9df5855688f607ff73cf8fe" prot="public" virt="non-virtual"><scope>gr::ieee802_11::signal_field</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

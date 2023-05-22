@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structgr_1_1ieee802__11_1_1Token" kind="struct" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::Token</compoundname>
+    <includes refid="uav__system__impl_8h" local="no">uav_system_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1Token_1af222c7cb8aec7239f34795d82f81fef4" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structgr_1_1ieee802__11_1_1TokenHeader" kindref="compound">TokenHeader</ref></type>
+        <definition>struct TokenHeader gr::ieee802_11::Token::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="28" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1ieee802__11_1_1Token_1a3d9ad6f0ad5fd217770c7862845c097a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::ieee802_11::Token::payload[MAX_PAYLOAD_SIZE]</definition>
+        <argsstring>[MAX_PAYLOAD_SIZE]</argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="46" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::Token</label>
+        <link refid="structgr_1_1ieee802__11_1_1Token"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::TokenHeader</label>
+        <link refid="structgr_1_1ieee802__11_1_1TokenHeader"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="44" column="12" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="44" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structgr_1_1ieee802__11_1_1Token_1af222c7cb8aec7239f34795d82f81fef4" prot="public" virt="non-virtual"><scope>gr::ieee802_11::Token</scope><name>header</name></member>
+      <member refid="structgr_1_1ieee802__11_1_1Token_1a3d9ad6f0ad5fd217770c7862845c097a" prot="public" virt="non-virtual"><scope>gr::ieee802_11::Token</scope><name>payload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

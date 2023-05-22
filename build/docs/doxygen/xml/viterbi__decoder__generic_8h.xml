@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="viterbi__decoder__generic_8h" kind="file" language="C++">
+    <compoundname>viterbi_decoder_generic.h</compoundname>
+    <includes refid="viterbi__decoder_2base_8h" local="yes">base.h</includes>
+    <includedby refid="viterbi__decoder_8h" local="yes">viterbi_decoder.h</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>ieee802_11/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>../utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>cinttypes</label>
+      </node>
+      <node id="2">
+        <label>base.h</label>
+        <link refid="viterbi__decoder_2base_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1">
+        <label>viterbi_decoder_generic.h</label>
+        <link refid="viterbi__decoder__generic_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ieee802_11/mapper.h</label>
+        <link refid="mapper_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>frame_equalizer_impl.h</label>
+        <link refid="frame__equalizer__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>viterbi_decoder_generic.h</label>
+        <link refid="viterbi__decoder__generic_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>viterbi_decoder.h</label>
+        <link refid="viterbi__decoder_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ieee802__11_1_1viterbi__decoder" prot="public">gr::ieee802_11::viterbi_decoder</innerclass>
+    <innerclass refid="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27" prot="private">gr::ieee802_11::viterbi_decoder::branchtab27</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ieee802__11">gr::ieee802_11</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h"/>
+  </compounddef>
+</doxygen>

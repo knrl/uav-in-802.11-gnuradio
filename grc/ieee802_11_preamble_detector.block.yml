@@ -1,0 +1,24 @@
+id: ieee802_11_preamble_detector
+label: Preamble Detector
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.preamble_detector()
+inputs:
+  - label: in
+    domain: stream
+    dtype: complex
+    vlen: 1
+  - label: corr
+    domain: stream
+    dtype: complex
+    vlen: 1
+  - label: treshold
+    domain: stream
+    dtype: float
+    vlen: 1
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+file_format: 1

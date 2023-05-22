@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::ofdm_sampler_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1ofdm__sampler" prot="public" virt="non-virtual">gr::ieee802_11::ofdm_sampler</basecompoundref>
+    <includes refid="ofdm__sampler__impl_8h" local="no">ofdm_sampler_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273" prot="private" static="no" strong="no">
+        <type></type>
+        <name>state_t</name>
+        <enumvalue id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273a1a965f63122f41e81d0e11388850455c" prot="private">
+          <name>STATE_NO_SIG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273ac4f7fe4b0572cdedb2a53938a4e867f3" prot="private">
+          <name>STATE_PREAMBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273a9ca3feb2334e6f1307f823375725ccfa" prot="private">
+          <name>STATE_FRAME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="19" column="17" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1adc6a741d945a4c46a08564c27d3cfb76" prot="private" static="no" mutable="no">
+        <type>state_t</type>
+        <definition>state_t gr::ieee802_11::ofdm_sampler_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="21" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a1537f9953380218e5d58c3dff75403fb" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::ofdm_sampler_impl::d_timeout_max</definition>
+        <argsstring></argsstring>
+        <name>d_timeout_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="22" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a164100a8c1bbf5b47c0e9ca747318806" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::ofdm_sampler_impl::d_timeout</definition>
+        <argsstring></argsstring>
+        <name>d_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="23" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ae6d2d60d2dc89c323bf2c7c15925f620" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::ofdm_sampler_impl::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="24" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a26f257af157e1eb92840c1eb5560d9cd" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::ofdm_sampler_impl::d_symbol_length</definition>
+        <argsstring></argsstring>
+        <name>d_symbol_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="25" column="18" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad35afa8cd68c8459003960777078dd93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::ofdm_sampler_impl::ofdm_sampler_impl</definition>
+        <argsstring>(unsigned int fft_length, unsigned int symbol_length, unsigned int timeout)</argsstring>
+        <name>ofdm_sampler_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>symbol_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="28" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a69cc5306d92a6487bf218316f03e99db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::ofdm_sampler_impl::~ofdm_sampler_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_sampler_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="31" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a57e974fab2aa14ae5c4c85f8af2c138b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::ofdm_sampler_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="34" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a5de720512b079b56403a4a2ebd8aa381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::ofdm_sampler_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="36" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_sampler_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::ofdm_sampler</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::ieee802_11::ofdm_sampler_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::ofdm_sampler</label>
+        <link refid="classgr_1_1ieee802__11_1_1ofdm__sampler"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" line="17" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ofdm_sampler_impl.h" bodystart="16" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ae6d2d60d2dc89c323bf2c7c15925f620" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>d_fft_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1adc6a741d945a4c46a08564c27d3cfb76" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a26f257af157e1eb92840c1eb5560d9cd" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>d_symbol_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a164100a8c1bbf5b47c0e9ca747318806" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>d_timeout</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a1537f9953380218e5d58c3dff75403fb" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>d_timeout_max</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a57e974fab2aa14ae5c4c85f8af2c138b" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a5de720512b079b56403a4a2ebd8aa381" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac7824a5f6acab8bd4e36661fa7154126" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad35afa8cd68c8459003960777078dd93" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>ofdm_sampler_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler_1ac29f7ad09d2cad618ef961404259dd25" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273a9ca3feb2334e6f1307f823375725ccfa" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>STATE_FRAME</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273a1a965f63122f41e81d0e11388850455c" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>STATE_NO_SIG</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273ac4f7fe4b0572cdedb2a53938a4e867f3" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>STATE_PREAMBLE</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1ad3d82e9af1b438095634011489fb3273" prot="private" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>state_t</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl_1a69cc5306d92a6487bf218316f03e99db" prot="public" virt="non-virtual"><scope>gr::ieee802_11::ofdm_sampler_impl</scope><name>~ofdm_sampler_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

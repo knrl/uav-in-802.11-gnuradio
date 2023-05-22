@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::alamouti_ofdm_rx_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx" prot="public" virt="non-virtual">gr::ieee802_11::alamouti_ofdm_rx</basecompoundref>
+    <includes refid="alamouti__ofdm__rx__impl_8h" local="no">alamouti_ofdm_rx_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a67e41528529466a40bd6bce77dfe7605" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::alamouti_ofdm_rx_impl::d_occupied_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_occupied_carriers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="22" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a6840b6fa9083f228dd30ae94540857fd" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::alamouti_ofdm_rx_impl::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="23" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1eb4ac5325902af39713c61d79f23ff0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::alamouti_ofdm_rx_impl::d_cplen</definition>
+        <argsstring></argsstring>
+        <name>d_cplen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="24" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1f871a04f7eaaa5dfd2c2e570d850369" prot="private" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream gr::ieee802_11::alamouti_ofdm_rx_impl::log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="27" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1aa6756bdcee422ddc2a7a1a1c7a1f37b0" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::alamouti_ofdm_rx_impl::freq_shift_len</definition>
+        <argsstring></argsstring>
+        <name>freq_shift_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="29" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ad9392767947bc4f4c8b25726a978bb0e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::known_symbol0</definition>
+        <argsstring></argsstring>
+        <name>known_symbol0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="30" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a18107f1b2fd14667d0c3cd48b702eeb4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::known_symbol1</definition>
+        <argsstring></argsstring>
+        <name>known_symbol1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="31" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a9535e25a08f3b0b713c47bd38d2452a5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::known_phase_diff1</definition>
+        <argsstring></argsstring>
+        <name>known_phase_diff1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="33" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a9678e6b261972f11abf8bea0e16c8fc7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::known_phase_diff2</definition>
+        <argsstring></argsstring>
+        <name>known_phase_diff2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="34" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a5b6646d6191ec804b2a474473b10e7b2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::symbol_phase_diff1</definition>
+        <argsstring></argsstring>
+        <name>symbol_phase_diff1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="36" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1d950622025119260dacfe317d49617b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::ieee802_11::alamouti_ofdm_rx_impl::symbol_phase_diff2</definition>
+        <argsstring></argsstring>
+        <name>symbol_phase_diff2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="37" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a678ebfbd879e9e133f4c0448f5d0acf4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt; *</type>
+        <definition>std::vector&lt;gr_complex&gt;* gr::ieee802_11::alamouti_ofdm_rx_impl::hestimate1</definition>
+        <argsstring></argsstring>
+        <name>hestimate1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="39" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adb29e21a6a1054c9e40d29fd5a812689" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt; *</type>
+        <definition>std::vector&lt;gr_complex&gt;* gr::ieee802_11::alamouti_ofdm_rx_impl::hestimate2</definition>
+        <argsstring></argsstring>
+        <name>hestimate2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="40" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a0179520df3e6c8d8001df956e2e71650" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::ieee802_11::alamouti_ofdm_rx_impl::coarse_freq1</definition>
+        <argsstring></argsstring>
+        <name>coarse_freq1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="41" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a2b5c5396fabc357d1340dc45735dfd55" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::ieee802_11::alamouti_ofdm_rx_impl::coarse_freq2</definition>
+        <argsstring></argsstring>
+        <name>coarse_freq2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="42" column="5" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a03bcbeed46828930bab8bdfd0128cbcb" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::alamouti_ofdm_rx_impl::phase_count</definition>
+        <argsstring></argsstring>
+        <name>phase_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="43" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1e6e2929c403912bb92997488b4d67d0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::alamouti_ofdm_rx_impl::first_preamble</definition>
+        <argsstring></argsstring>
+        <name>first_preamble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="46" column="6" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ab2fa16939dbf95e3ffde383fdc7edc89" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ieee802_11::alamouti_ofdm_rx_impl::second_preamble</definition>
+        <argsstring></argsstring>
+        <name>second_preamble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="47" column="6" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adc8808131d4b7018108f20220c4f88dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_ofdm_rx_impl::correlate1</definition>
+        <argsstring>(const gr_complex *symbol0, const gr_complex *symbol1, int zeros_on_left)</argsstring>
+        <name>correlate1</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol0</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zeros_on_left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="50" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a84ed3bc11557672d69d0941d2a5fd74f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_ofdm_rx_impl::correlate2</definition>
+        <argsstring>(const gr_complex *symbol0, const gr_complex *symbol1, int zeros_on_left)</argsstring>
+        <name>correlate2</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol0</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zeros_on_left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="51" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1aab4098d4aca9f49e5852ff65a7ab5df2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_ofdm_rx_impl::calculate_equalizer</definition>
+        <argsstring>(int channel, const gr_complex *symbol1, const gr_complex *symbol2, int zeros_on_left)</argsstring>
+        <name>calculate_equalizer</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol1</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>symbol2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zeros_on_left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="52" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adc4ee749c4a1192489b4aa2be0e19cfa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::ieee802_11::alamouti_ofdm_rx_impl::coarse_freq_comp</definition>
+        <argsstring>(int freq_delta, int count)</argsstring>
+        <name>coarse_freq_comp</name>
+        <param>
+          <type>int</type>
+          <declname>freq_delta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="53" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a0553e489eae51475015ece60153a0da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::alamouti_ofdm_rx_impl::alamouti_ofdm_rx_impl</definition>
+        <argsstring>(unsigned int occupied_carriers, unsigned int fft_length, unsigned int cplen)</argsstring>
+        <name>alamouti_ofdm_rx_impl</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>cplen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="56" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a4532f95f03834c59ead7f678a6296419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::alamouti_ofdm_rx_impl::~alamouti_ofdm_rx_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~alamouti_ofdm_rx_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="59" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ae0a6071dcf400c346029d0253157f612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ieee802_11::alamouti_ofdm_rx_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="62" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a2f954aa7a12a2f8d41816dad7a95a128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::alamouti_ofdm_rx_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="64" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::ieee802_11::alamouti_ofdm_rx</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_ofdm_rx_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::ieee802_11::alamouti_ofdm_rx</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::alamouti_ofdm_rx_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" line="19" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/alamouti_ofdm_rx_impl.h" bodystart="18" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a0553e489eae51475015ece60153a0da3" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>alamouti_ofdm_rx_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1aab4098d4aca9f49e5852ff65a7ab5df2" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>calculate_equalizer</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a0179520df3e6c8d8001df956e2e71650" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>coarse_freq1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a2b5c5396fabc357d1340dc45735dfd55" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>coarse_freq2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adc4ee749c4a1192489b4aa2be0e19cfa" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>coarse_freq_comp</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adc8808131d4b7018108f20220c4f88dd" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>correlate1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a84ed3bc11557672d69d0941d2a5fd74f" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>correlate2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1eb4ac5325902af39713c61d79f23ff0" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>d_cplen</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a6840b6fa9083f228dd30ae94540857fd" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>d_fft_length</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a67e41528529466a40bd6bce77dfe7605" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>d_occupied_carriers</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1e6e2929c403912bb92997488b4d67d0" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>first_preamble</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ae0a6071dcf400c346029d0253157f612" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1aa6756bdcee422ddc2a7a1a1c7a1f37b0" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>freq_shift_len</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a2f954aa7a12a2f8d41816dad7a95a128" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a678ebfbd879e9e133f4c0448f5d0acf4" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>hestimate1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1adb29e21a6a1054c9e40d29fd5a812689" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>hestimate2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a9535e25a08f3b0b713c47bd38d2452a5" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>known_phase_diff1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a9678e6b261972f11abf8bea0e16c8fc7" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>known_phase_diff2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ad9392767947bc4f4c8b25726a978bb0e" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>known_symbol0</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a18107f1b2fd14667d0c3cd48b702eeb4" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>known_symbol1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1f871a04f7eaaa5dfd2c2e570d850369" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>log</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx_1a9b2405c656b57397364642da528038be" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a03bcbeed46828930bab8bdfd0128cbcb" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>phase_count</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1ab2fa16939dbf95e3ffde383fdc7edc89" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>second_preamble</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx_1acf5c9b235022628e8891bc814355c027" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a5b6646d6191ec804b2a474473b10e7b2" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>symbol_phase_diff1</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a1d950622025119260dacfe317d49617b" prot="private" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>symbol_phase_diff2</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl_1a4532f95f03834c59ead7f678a6296419" prot="public" virt="non-virtual"><scope>gr::ieee802_11::alamouti_ofdm_rx_impl</scope><name>~alamouti_ofdm_rx_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

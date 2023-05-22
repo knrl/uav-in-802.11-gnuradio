@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="docs_2doxygen_2pydoc__macros_8h" kind="file" language="C++">
+    <compoundname>docs/doxygen/pydoc_macros.h</compoundname>
+    <includedby refid="alamouti__decode__cc__pydoc__template_8h" local="yes">alamouti_decode_cc_pydoc_template.h</includedby>
+    <includedby refid="alamouti__encode__cc__pydoc__template_8h" local="yes">alamouti_encode_cc_pydoc_template.h</includedby>
+    <includedby refid="alamouti__ofdm__rx__pydoc__template_8h" local="yes">alamouti_ofdm_rx_pydoc_template.h</includedby>
+    <includedby refid="alamouti__ofdm__tx__cc__pydoc__template_8h" local="yes">alamouti_ofdm_tx_cc_pydoc_template.h</includedby>
+    <includedby refid="chunks__to__symbols__pydoc__template_8h" local="yes">chunks_to_symbols_pydoc_template.h</includedby>
+    <includedby refid="constellations__pydoc__template_8h" local="yes">constellations_pydoc_template.h</includedby>
+    <includedby refid="decode__mac__pydoc__template_8h" local="yes">decode_mac_pydoc_template.h</includedby>
+    <includedby refid="ether__encap__pydoc__template_8h" local="yes">ether_encap_pydoc_template.h</includedby>
+    <includedby refid="extract__csi__pydoc__template_8h" local="yes">extract_csi_pydoc_template.h</includedby>
+    <includedby refid="frame__equalizer__pydoc__template_8h" local="yes">frame_equalizer_pydoc_template.h</includedby>
+    <includedby refid="mac__pydoc__template_8h" local="yes">mac_pydoc_template.h</includedby>
+    <includedby refid="mapper__pydoc__template_8h" local="yes">mapper_pydoc_template.h</includedby>
+    <includedby refid="my__strobe__pydoc__template_8h" local="yes">my_strobe_pydoc_template.h</includedby>
+    <includedby refid="ofdm__demapper__pydoc__template_8h" local="yes">ofdm_demapper_pydoc_template.h</includedby>
+    <includedby refid="ofdm__insert__preamble__tagged__pydoc__template_8h" local="yes">ofdm_insert_preamble_tagged_pydoc_template.h</includedby>
+    <includedby refid="ofdm__mapper__pydoc__template_8h" local="yes">ofdm_mapper_pydoc_template.h</includedby>
+    <includedby refid="ofdm__sampler__pydoc__template_8h" local="yes">ofdm_sampler_pydoc_template.h</includedby>
+    <includedby refid="parse__mac__pydoc__template_8h" local="yes">parse_mac_pydoc_template.h</includedby>
+    <includedby refid="preamble__detector__pydoc__template_8h" local="yes">preamble_detector_pydoc_template.h</includedby>
+    <includedby refid="signal__field__pydoc__template_8h" local="yes">signal_field_pydoc_template.h</includedby>
+    <includedby refid="sync__long__pydoc__template_8h" local="yes">sync_long_pydoc_template.h</includedby>
+    <includedby refid="sync__short__pydoc__template_8h" local="yes">sync_short_pydoc_template.h</includedby>
+    <includedby refid="uav__system__pydoc__template_8h" local="yes">uav_system_pydoc_template.h</includedby>
+    <invincdepgraph>
+      <node id="21">
+        <label>signal_field_pydoc_template.h</label>
+        <link refid="signal__field__pydoc__template_8h"/>
+      </node>
+      <node id="4">
+        <label>alamouti_ofdm_rx_pydoc_template.h</label>
+        <link refid="alamouti__ofdm__rx__pydoc__template_8h"/>
+      </node>
+      <node id="9">
+        <label>ether_encap_pydoc_template.h</label>
+        <link refid="ether__encap__pydoc__template_8h"/>
+      </node>
+      <node id="24">
+        <label>uav_system_pydoc_template.h</label>
+        <link refid="uav__system__pydoc__template_8h"/>
+      </node>
+      <node id="23">
+        <label>sync_short_pydoc_template.h</label>
+        <link refid="sync__short__pydoc__template_8h"/>
+      </node>
+      <node id="14">
+        <label>my_strobe_pydoc_template.h</label>
+        <link refid="my__strobe__pydoc__template_8h"/>
+      </node>
+      <node id="10">
+        <label>extract_csi_pydoc_template.h</label>
+        <link refid="extract__csi__pydoc__template_8h"/>
+      </node>
+      <node id="6">
+        <label>chunks_to_symbols_pydoc_template.h</label>
+        <link refid="chunks__to__symbols__pydoc__template_8h"/>
+      </node>
+      <node id="13">
+        <label>mapper_pydoc_template.h</label>
+        <link refid="mapper__pydoc__template_8h"/>
+      </node>
+      <node id="1">
+        <label>pydoc_macros.h</label>
+        <link refid="docs_2doxygen_2pydoc__macros_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>sync_long_pydoc_template.h</label>
+        <link refid="sync__long__pydoc__template_8h"/>
+      </node>
+      <node id="5">
+        <label>alamouti_ofdm_tx_cc_pydoc_template.h</label>
+        <link refid="alamouti__ofdm__tx__cc__pydoc__template_8h"/>
+      </node>
+      <node id="11">
+        <label>frame_equalizer_pydoc_template.h</label>
+        <link refid="frame__equalizer__pydoc__template_8h"/>
+      </node>
+      <node id="3">
+        <label>alamouti_encode_cc_pydoc_template.h</label>
+        <link refid="alamouti__encode__cc__pydoc__template_8h"/>
+      </node>
+      <node id="15">
+        <label>ofdm_demapper_pydoc_template.h</label>
+        <link refid="ofdm__demapper__pydoc__template_8h"/>
+      </node>
+      <node id="17">
+        <label>ofdm_mapper_pydoc_template.h</label>
+        <link refid="ofdm__mapper__pydoc__template_8h"/>
+      </node>
+      <node id="18">
+        <label>ofdm_sampler_pydoc_template.h</label>
+        <link refid="ofdm__sampler__pydoc__template_8h"/>
+      </node>
+      <node id="16">
+        <label>ofdm_insert_preamble_tagged_pydoc_template.h</label>
+        <link refid="ofdm__insert__preamble__tagged__pydoc__template_8h"/>
+      </node>
+      <node id="7">
+        <label>constellations_pydoc_template.h</label>
+        <link refid="constellations__pydoc__template_8h"/>
+      </node>
+      <node id="19">
+        <label>parse_mac_pydoc_template.h</label>
+        <link refid="parse__mac__pydoc__template_8h_source"/>
+      </node>
+      <node id="20">
+        <label>preamble_detector_pydoc_template.h</label>
+        <link refid="preamble__detector__pydoc__template_8h"/>
+      </node>
+      <node id="2">
+        <label>alamouti_decode_cc_pydoc_template.h</label>
+        <link refid="alamouti__decode__cc__pydoc__template_8h"/>
+      </node>
+      <node id="12">
+        <label>mac_pydoc_template.h</label>
+        <link refid="mac__pydoc__template_8h"/>
+      </node>
+      <node id="8">
+        <label>decode_mac_pydoc_template.h</label>
+        <link refid="decode__mac__pydoc__template_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" prot="public" static="no">
+        <name>__EXPAND</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="uav__system__impl_8h_1a0f561e77fa0f040b637f4e04f6cd8078" kindref="member">x</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="4" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" prot="public" static="no">
+        <name>__COUNT</name>
+        <param><defname>_1</defname></param>
+        <param><defname>_2</defname></param>
+        <param><defname>_3</defname></param>
+        <param><defname>_4</defname></param>
+        <param><defname>_5</defname></param>
+        <param><defname>_6</defname></param>
+        <param><defname>_7</defname></param>
+        <param><defname>COUNT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="5" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" prot="public" static="no">
+        <name>__VA_SIZE</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="docs_2doxygen_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kindref="member">__COUNT</ref>(__VA_ARGS__, 7, 6, 5, 4, 3, 2, 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="6" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" prot="public" static="no">
+        <name>__CAT1</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>a##b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="7" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" prot="public" static="no">
+        <name>__CAT2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kindref="member">__CAT1</ref>(a, b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="8" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" prot="public" static="no">
+        <name>__DOC1</name>
+        <param><defname>n1</defname></param>
+        <initializer>__doc_##n1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="9" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" prot="public" static="no">
+        <name>__DOC2</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <initializer>__doc_##n1##_##n2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="10" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" prot="public" static="no">
+        <name>__DOC3</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="11" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" prot="public" static="no">
+        <name>__DOC4</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="12" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" prot="public" static="no">
+        <name>__DOC5</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="13" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" prot="public" static="no">
+        <name>__DOC6</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="14" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" prot="public" static="no">
+        <name>__DOC7</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <param><defname>n7</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6##_##n7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="15" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" prot="public" static="no">
+        <name>DOC</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="docs_2doxygen_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kindref="member">__CAT2</ref>(__DOC, <ref refid="docs_2doxygen_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kindref="member">__VA_SIZE</ref>(__VA_ARGS__)))(__VA_ARGS__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" line="17" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/docs/doxygen/pydoc_macros.h"/>
+  </compounddef>
+</doxygen>

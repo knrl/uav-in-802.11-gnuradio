@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_631a5d9f333fdf0681e4f92fd497f630" kind="dir">
+    <compoundname>equalizer</compoundname>
+    <innerfile refid="equalizer_2base_8h">equalizer/base.h</innerfile>
+    <innerfile refid="comb_8h">comb.h</innerfile>
+    <innerfile refid="lms_8h">lms.h</innerfile>
+    <innerfile refid="ls_8h">ls.h</innerfile>
+    <innerfile refid="sta_8h">sta.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/equalizer/"/>
+  </compounddef>
+</doxygen>

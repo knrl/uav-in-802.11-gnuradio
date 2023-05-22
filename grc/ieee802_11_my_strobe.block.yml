@@ -1,0 +1,28 @@
+id: ieee802_11_my_strobe
+label: Strobe
+category: '[ieee802_11]'
+
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.my_strobe(${msg}, ${period})
+  callbacks:
+    - set_msg(${msg})
+    - set_period(${period})
+parameters:
+  - id: msg
+    label: Message PMT
+    dtype: raw
+    default: pmt.intern("TEST")
+  - id: period
+    label: Period (ms)
+    dtype: int
+    default: "1000"
+inputs:
+  - domain: message
+    id: set_msg
+    optional: true
+outputs:
+  - domain: message
+    id: strobe
+    optional: true
+file_format: 1

@@ -1,0 +1,18 @@
+id: ieee802_11_alamouti_decode_cc
+label: Alamouti Decoder
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.alamouti_decode_cc()
+inputs:
+  - label: in0
+    domain: stream
+    dtype: complex
+  - label: in1
+    domain: stream
+    dtype: complex
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+file_format: 1

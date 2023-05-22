@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27" kind="union" language="C++" prot="private">
+    <compoundname>gr::ieee802_11::viterbi_decoder::branchtab27</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27_1ae6baca54ba4f7b1bf2b8432e6caff446" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ieee802_11::viterbi_decoder::branchtab27::c</definition>
+        <argsstring>[32]</argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="37" column="23" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27_1a2a183cbe95aab793c840672000b0bb30" prot="public" static="no" mutable="no">
+        <type>__m128i</type>
+        <definition>__m128i gr::ieee802_11::viterbi_decoder::branchtab27::v[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" line="39" column="17" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_x86.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" line="36" column="22" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/viterbi_decoder/viterbi_decoder_generic.h" bodystart="36" bodyend="38"/>
+    <listofallmembers>
+      <member refid="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27_1ae6baca54ba4f7b1bf2b8432e6caff446" prot="public" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder::branchtab27</scope><name>c</name></member>
+      <member refid="uniongr_1_1ieee802__11_1_1viterbi__decoder_1_1branchtab27_1a2a183cbe95aab793c840672000b0bb30" prot="public" virt="non-virtual"><scope>gr::ieee802_11::viterbi_decoder::branchtab27</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

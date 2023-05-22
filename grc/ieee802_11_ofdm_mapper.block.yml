@@ -1,0 +1,30 @@
+---
+id: ieee802_11_ofdm_mapper
+label: OFDM Mapper
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.ofdm_mapper(${constellation}, ${occupied_carriers}, ${fft_length})
+parameters:
+  - id: constellation
+    label: Constellation
+    dtype: complex_vector
+  - id: occupied_carriers
+    label: Occupied Carriers
+    dtype: raw
+  - id: fft_length
+    label: FFT Length
+    dtype: raw
+inputs:
+  - label: in
+    domain: stream
+    dtype: byte
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+    vlen: ${occupied_carriers}
+  - label: out
+    domain: stream
+    dtype: byte
+file_format: 1

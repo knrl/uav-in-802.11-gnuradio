@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1constellation__qpsk__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::constellation_qpsk_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1constellation__qpsk" prot="public" virt="non-virtual">gr::ieee802_11::constellation_qpsk</basecompoundref>
+    <includes refid="constellations__impl_8h" local="no">constellations_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1a12f957f1384a5e04f7ae9e6310e2deb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::constellation_qpsk_impl::constellation_qpsk_impl</definition>
+        <argsstring>()</argsstring>
+        <name>constellation_qpsk_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/constellations_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1aae2999fe501b0b26109355563afbb53c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::constellation_qpsk_impl::~constellation_qpsk_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~constellation_qpsk_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/constellations_impl.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1a0afdb3e0d7ac0f83e708167ca1b7e3b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ieee802_11::constellation_qpsk_impl::decision_maker</definition>
+        <argsstring>(const gr_complex *sample)</argsstring>
+        <name>decision_maker</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/constellations_impl.h" line="41" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>constellation</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::constellation_qpsk</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__qpsk"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::constellation_qpsk_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>constellation</label>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::constellation_qpsk</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__qpsk"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::constellation_qpsk_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/constellations_impl.h" line="36" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/constellations_impl.h" bodystart="35" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk_1a5e490366d818e970c953df851b796fdb" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>base</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk_1ad558cfd698213746aa827bb02e79baa9" prot="protected" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>constellation_qpsk</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1a12f957f1384a5e04f7ae9e6310e2deb1" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>constellation_qpsk_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1a0afdb3e0d7ac0f83e708167ca1b7e3b8" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>decision_maker</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk_1a06200cba48c9e552638c3e9ddb8359e2" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk_1a6e324db84b1b7432ab7e6f5b6b1bbd1f" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl_1aae2999fe501b0b26109355563afbb53c" prot="public" virt="non-virtual"><scope>gr::ieee802_11::constellation_qpsk_impl</scope><name>~constellation_qpsk_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

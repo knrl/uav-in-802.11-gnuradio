@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="ether__encap__impl_8h" kind="file" language="C++">
+    <compoundname>ether_encap_impl.h</compoundname>
+    <includes refid="ether__encap_8h" local="no">ieee802_11/ether_encap.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>ieee802_11/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ether_encap_impl.h</label>
+        <link refid="ether__encap__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="2">
+        <label>ieee802_11/ether_encap.h</label>
+        <link refid="ether__encap_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgr_1_1ieee802__11_1_1ethernet__header" prot="public">gr::ieee802_11::ethernet_header</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ether__encap__impl" prot="public">gr::ieee802_11::ether_encap_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ieee802__11">gr::ieee802_11</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ether__encap__impl_8h_1ad4bca79b798defa3f01eac29ad0f7e04" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dest[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>dest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="2" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ether__encap__impl_8h_1a1dd46b160c08c78470285912049f4dec" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t src[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="3" column="13" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ether__encap__impl_8h_1acb5cfd209ba75c853d03f701e7f91679" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="4" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h"/>
+  </compounddef>
+</doxygen>

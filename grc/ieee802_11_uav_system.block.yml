@@ -1,0 +1,37 @@
+id: ieee802_11_uav_system
+label: UAV
+category: '[IEEE802.11]'
+
+templates:
+    imports: import ieee802_11
+    make: ieee802_11.uav_system(${src}, ${period_ms}, ${master})
+parameters:
+-   id: src
+    label: SRC MAC
+    dtype: int_vector
+    default: '[0x23, 0x23, 0x23, 0x23, 0x23, 0x23]'
+-   id: period_ms
+    label: Period (ms)
+    dtype: int
+    default: "1000"
+-   id: master
+    label: Master
+    dtype: bool
+    default: 'False'
+    options: ['True', 'False']
+    option_labels: [Enable, Disable]
+inputs:
+-   domain: message
+    id: phy in0
+    optional: true
+-   domain: message
+    id: phy in1
+    optional: true
+outputs:
+-   domain: message
+    id: phy out0
+    optional: true
+-   domain: message
+    id: phy out1
+    optional: true
+file_format: 1

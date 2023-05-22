@@ -1,0 +1,27 @@
+id: ieee802_11_ofdm_demapper
+label: OFDM Demapper
+category: "[ieee802_11]"
+templates:
+  imports: import ieee802_11
+  make: ieee802_11.ofdm_demapper(${occupied_carriers})
+parameters:
+  - id: occupied_carriers
+    label: Occupied Carriers
+    dtype: raw
+inputs:
+  - label: in
+    domain: stream
+    dtype: complex
+    vlen: ${occupied_carriers}
+  - label: in
+    domain: stream
+    dtype: byte
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+  - label: out
+    domain: stream
+    dtype: byte
+file_format: 1
+

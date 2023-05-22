@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1ieee802__11_1_1extract__csi__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ieee802_11::extract_csi_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ieee802__11_1_1extract__csi" prot="public" virt="non-virtual">gr::ieee802_11::extract_csi</basecompoundref>
+    <includes refid="extract__csi__impl_8h" local="no">extract_csi_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1extract__csi__impl_1a6ac86b92ce88df84a551bb261c6442ce" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ieee802_11::extract_csi_impl::d_meta</definition>
+        <argsstring></argsstring>
+        <name>d_meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="32" column="16" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ieee802__11_1_1extract__csi__impl_1ab199a8fc9086a81be22449b89efa3bb5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::ieee802_11::extract_csi_impl::d_csi</definition>
+        <argsstring></argsstring>
+        <name>d_csi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="33" column="17" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1extract__csi__impl_1a49a93d718e13a8feed50ad3559e5fd45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::extract_csi_impl::extract_csi_impl</definition>
+        <argsstring>()</argsstring>
+        <name>extract_csi_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1extract__csi__impl_1a764a4cfad1b9ee0144511fa6b3406d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ieee802_11::extract_csi_impl::~extract_csi_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~extract_csi_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="37" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ieee802__11_1_1extract__csi__impl_1aba72f9c32b8cfa3368cb0cc85edd7def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ieee802_11::extract_csi_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="39" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::extract_csi_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1extract__csi__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::extract_csi</label>
+        <link refid="classgr_1_1ieee802__11_1_1extract__csi"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::ieee802_11::extract_csi_impl</label>
+        <link refid="classgr_1_1ieee802__11_1_1extract__csi__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::ieee802_11::extract_csi</label>
+        <link refid="classgr_1_1ieee802__11_1_1extract__csi"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" line="30" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/extract_csi_impl.h" bodystart="29" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi__impl_1ab199a8fc9086a81be22449b89efa3bb5" prot="private" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>d_csi</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi__impl_1a6ac86b92ce88df84a551bb261c6442ce" prot="private" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>d_meta</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi__impl_1a49a93d718e13a8feed50ad3559e5fd45" prot="public" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>extract_csi_impl</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi_1a1f5bdd1aeb375d17dc9e22a5817c0219" prot="public" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi_1a602130ccbe3c79293803ae356749fd30" prot="public" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi__impl_1aba72f9c32b8cfa3368cb0cc85edd7def" prot="public" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ieee802__11_1_1extract__csi__impl_1a764a4cfad1b9ee0144511fa6b3406d66" prot="public" virt="non-virtual"><scope>gr::ieee802_11::extract_csi_impl</scope><name>~extract_csi_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

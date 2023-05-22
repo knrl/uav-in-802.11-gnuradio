@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classofdm__param" kind="class" language="C++" prot="public">
+    <compoundname>ofdm_param</compoundname>
+    <includes refid="utils_8h" local="no">utils.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classofdm__param_1acc1dc8a6f8e082097e9935545d8f132a" prot="public" static="no" mutable="no">
+        <type>Encoding</type>
+        <definition>Encoding ofdm_param::encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="60" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofdm__param_1a94472a7f136f3b23a1c2cffb69764e0c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ofdm_param::rate_field</definition>
+        <argsstring></argsstring>
+        <name>rate_field</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="62" column="10" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofdm__param_1aaac69a0c04ebca4231a77989f8c625ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofdm_param::n_bpsc</definition>
+        <argsstring></argsstring>
+        <name>n_bpsc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="64" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofdm__param_1ade9d7b5088fd4df2aa282e20214ccb4c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofdm_param::n_cbps</definition>
+        <argsstring></argsstring>
+        <name>n_cbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="66" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofdm__param_1ae771e93f5c658c2079221537dbcfc80c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofdm_param::n_dbps</definition>
+        <argsstring></argsstring>
+        <name>n_dbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="68" column="9" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofdm__param_1ab4e7a2b3d9ad196f13cffd086a407d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofdm_param::ofdm_param</definition>
+        <argsstring>(Encoding e)</argsstring>
+        <name>ofdm_param</name>
+        <param>
+          <type>Encoding</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="57" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classofdm__param_1ace9b33888b5335b1973e986ec657cf9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofdm_param::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="70" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>WIFI parameters </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Encoding</label>
+      </node>
+      <node id="1">
+        <label>ofdm_param</label>
+        <link refid="classofdm__param"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>encoding</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" line="55" column="1" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/utils.h" bodystart="54" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classofdm__param_1acc1dc8a6f8e082097e9935545d8f132a" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>encoding</name></member>
+      <member refid="classofdm__param_1aaac69a0c04ebca4231a77989f8c625ae" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>n_bpsc</name></member>
+      <member refid="classofdm__param_1ade9d7b5088fd4df2aa282e20214ccb4c" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>n_cbps</name></member>
+      <member refid="classofdm__param_1ae771e93f5c658c2079221537dbcfc80c" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>n_dbps</name></member>
+      <member refid="classofdm__param_1ab4e7a2b3d9ad196f13cffd086a407d41" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>ofdm_param</name></member>
+      <member refid="classofdm__param_1ace9b33888b5335b1973e986ec657cf9b" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>print</name></member>
+      <member refid="classofdm__param_1a94472a7f136f3b23a1c2cffb69764e0c" prot="public" virt="non-virtual"><scope>ofdm_param</scope><name>rate_field</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

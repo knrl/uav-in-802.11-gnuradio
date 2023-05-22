@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacegr_1_1ieee802__11" kind="namespace" language="C++">
+    <compoundname>gr::ieee802_11</compoundname>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc" prot="public">gr::ieee802_11::alamouti_decode_cc</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__decode__cc__impl" prot="public">gr::ieee802_11::alamouti_decode_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc" prot="public">gr::ieee802_11::alamouti_encode_cc</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__encode__cc__impl" prot="public">gr::ieee802_11::alamouti_encode_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx" prot="public">gr::ieee802_11::alamouti_ofdm_rx</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__rx__impl" prot="public">gr::ieee802_11::alamouti_ofdm_rx_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__tx__cc" prot="public">gr::ieee802_11::alamouti_ofdm_tx_cc</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1alamouti__ofdm__tx__cc__impl" prot="public">gr::ieee802_11::alamouti_ofdm_tx_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1base" prot="public">gr::ieee802_11::base</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1chunks__to__symbols" prot="public">gr::ieee802_11::chunks_to_symbols</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1chunks__to__symbols__impl" prot="public">gr::ieee802_11::chunks_to_symbols_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__16qam" prot="public">gr::ieee802_11::constellation_16qam</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__16qam__impl" prot="public">gr::ieee802_11::constellation_16qam_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__64qam" prot="public">gr::ieee802_11::constellation_64qam</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__64qam__impl" prot="public">gr::ieee802_11::constellation_64qam_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__bpsk" prot="public">gr::ieee802_11::constellation_bpsk</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__bpsk__impl" prot="public">gr::ieee802_11::constellation_bpsk_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__qpsk" prot="public">gr::ieee802_11::constellation_qpsk</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1constellation__qpsk__impl" prot="public">gr::ieee802_11::constellation_qpsk_impl</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1ControlHeader" prot="public">gr::ieee802_11::ControlHeader</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1decode__mac" prot="public">gr::ieee802_11::decode_mac</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ether__encap" prot="public">gr::ieee802_11::ether_encap</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ether__encap__impl" prot="public">gr::ieee802_11::ether_encap_impl</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1ethernet__header" prot="public">gr::ieee802_11::ethernet_header</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1extract__csi" prot="public">gr::ieee802_11::extract_csi</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1extract__csi__impl" prot="public">gr::ieee802_11::extract_csi_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1frame__equalizer" prot="public">gr::ieee802_11::frame_equalizer</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1frame__equalizer__impl" prot="public">gr::ieee802_11::frame_equalizer_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1mac" prot="public">gr::ieee802_11::mac</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1mapper" prot="public">gr::ieee802_11::mapper</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1my__strobe" prot="public">gr::ieee802_11::my_strobe</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1my__strobe__impl" prot="public">gr::ieee802_11::my_strobe_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__demapper" prot="public">gr::ieee802_11::ofdm_demapper</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__demapper__impl" prot="public">gr::ieee802_11::ofdm_demapper_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged" prot="public">gr::ieee802_11::ofdm_insert_preamble_tagged</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__insert__preamble__tagged__impl" prot="public">gr::ieee802_11::ofdm_insert_preamble_tagged_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__mapper" prot="public">gr::ieee802_11::ofdm_mapper</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__mapper__impl" prot="public">gr::ieee802_11::ofdm_mapper_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__sampler" prot="public">gr::ieee802_11::ofdm_sampler</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1ofdm__sampler__impl" prot="public">gr::ieee802_11::ofdm_sampler_impl</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1Position" prot="public">gr::ieee802_11::Position</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1preamble__detector" prot="public">gr::ieee802_11::preamble_detector</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1preamble__detector__impl" prot="public">gr::ieee802_11::preamble_detector_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1signal__field" prot="public">gr::ieee802_11::signal_field</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1signal__field__impl" prot="public">gr::ieee802_11::signal_field_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1sync__long" prot="public">gr::ieee802_11::sync_long</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1sync__short" prot="public">gr::ieee802_11::sync_short</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1Token" prot="public">gr::ieee802_11::Token</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1TokenHeader" prot="public">gr::ieee802_11::TokenHeader</innerclass>
+    <innerclass refid="structgr_1_1ieee802__11_1_1UAV" prot="public">gr::ieee802_11::UAV</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1uav__system" prot="public">gr::ieee802_11::uav_system</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1uav__system__impl" prot="public">gr::ieee802_11::uav_system_impl</innerclass>
+    <innerclass refid="classgr_1_1ieee802__11_1_1viterbi__decoder" prot="public">gr::ieee802_11::viterbi_decoder</innerclass>
+    <innernamespace refid="namespacegr_1_1ieee802__11_1_1equalizer">gr::ieee802_11::equalizer</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Equalizer</name>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94a60c0b0b7dda1ccf11fa41fb0645f2081" prot="public">
+          <name>LS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94ada78a2f7b406f4ab9b7d2d47b0e18625" prot="public">
+          <name>LMS</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94ac56760f7fbcf130350493c0adb32f37a" prot="public">
+          <name>COMB</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a33bfcd66d463db8a143614ca93242f94afc9b0a5d6aedf1234f86bed013d9f711" prot="public">
+          <name>STA</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" line="29" column="15" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/frame_equalizer.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Encoding</name>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea3d6d1fdb77e2da340d7a12ef39876248" prot="public">
+          <name>BPSK_1_2</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea13c875eb25625d21ee7705fd59d6214b" prot="public">
+          <name>BPSK_3_4</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea144445cdbfe8cec92bc250eaad229799" prot="public">
+          <name>QPSK_1_2</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea385af79bb784e95934a39d7247ff3a9b" prot="public">
+          <name>QPSK_3_4</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea288ec3366c6963e62a6e8c2fe91c3c4f" prot="public">
+          <name>QAM16_1_2</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea9d65d9e9b491adeb993b880845080be8" prot="public">
+          <name>QAM16_3_4</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea04e7e47709d58f1a807b50dc6315ea1c" prot="public">
+          <name>QAM64_2_3</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ieee802__11_1a67ff3822e580fd82812bf760b0a27b0ea8ecb1d9ff6ab0dcfc74464c3f560972a" prot="public">
+          <name>QAM64_3_4</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/mapper.h" line="26" column="14" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/mapper.h" bodystart="26" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a013591bd03f43994051248db01ac6d60" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1ieee802__11_1_1ether__encap__impl" kindref="compound">gr::ieee802_11::ether_encap_impl</ref></type>
+        <definition>struct gr::ieee802_11::Token gr::ieee802_11::__attribute__</definition>
+        <argsstring></argsstring>
+        <name>__attribute__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a479b32838811f2e4c8a440a9960b0852" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t gr::ieee802_11::MAX_PAYLOAD_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MAX_PAYLOAD_SIZE</name>
+        <initializer>= 1500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="18" column="20" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a3387abab1fa79488c335e907f21c1bf5" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::MAC_ADDR_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MAC_ADDR_SIZE</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="19" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a395541b0b8f28e5be5bd957aa442832f" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::TOKEN_HEADER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>TOKEN_HEADER_SIZE</name>
+        <initializer>= 14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="20" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a588bfb12305a380ff91525c547472af7" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::CRC_SIZE</definition>
+        <argsstring></argsstring>
+        <name>CRC_SIZE</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="21" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a995e52d6db7cb6cd740d34f4d9b4b2a9" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::UAV_SIZE</definition>
+        <argsstring></argsstring>
+        <name>UAV_SIZE</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="22" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a87c747866dc38a9f48735b4e03c81f2e" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::CTS_TYPE</definition>
+        <argsstring></argsstring>
+        <name>CTS_TYPE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="23" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1ieee802__11_1a4e3902f62cf7a144f2543eef04cdac23" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr uint8_t</type>
+        <definition>constexpr uint8_t gr::ieee802_11::RTS_TYPE</definition>
+        <argsstring></argsstring>
+        <name>RTS_TYPE</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" line="24" column="19" bodyfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/uav_system_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1ieee802__11_1af4481f69f3112c1b3dae64712a2b0bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structgr_1_1ieee802__11_1_1ethernet__header" kindref="compound">gr::ieee802_11::ethernet_header</ref></type>
+        <definition>struct gr::ieee802_11::ethernet_header gr::ieee802_11::__attribute__</definition>
+        <argsstring>((packed))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(packed)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" line="1" column="0" declfile="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/lib/ether_encap_impl.h" declline="1" declcolumn="0"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/include/ieee802_11/alamouti_decode_cc.h" line="15" column="20"/>
+  </compounddef>
+</doxygen>

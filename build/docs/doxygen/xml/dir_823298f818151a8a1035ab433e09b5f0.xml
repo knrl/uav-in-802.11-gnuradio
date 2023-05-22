@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_823298f818151a8a1035ab433e09b5f0" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="alamouti__decode__cc__pydoc__template_8h">alamouti_decode_cc_pydoc_template.h</innerfile>
+    <innerfile refid="alamouti__encode__cc__pydoc__template_8h">alamouti_encode_cc_pydoc_template.h</innerfile>
+    <innerfile refid="alamouti__ofdm__rx__pydoc__template_8h">alamouti_ofdm_rx_pydoc_template.h</innerfile>
+    <innerfile refid="alamouti__ofdm__tx__cc__pydoc__template_8h">alamouti_ofdm_tx_cc_pydoc_template.h</innerfile>
+    <innerfile refid="chunks__to__symbols__pydoc__template_8h">chunks_to_symbols_pydoc_template.h</innerfile>
+    <innerfile refid="constellations__pydoc__template_8h">constellations_pydoc_template.h</innerfile>
+    <innerfile refid="decode__mac__pydoc__template_8h">decode_mac_pydoc_template.h</innerfile>
+    <innerfile refid="ether__encap__pydoc__template_8h">ether_encap_pydoc_template.h</innerfile>
+    <innerfile refid="extract__csi__pydoc__template_8h">extract_csi_pydoc_template.h</innerfile>
+    <innerfile refid="frame__equalizer__pydoc__template_8h">frame_equalizer_pydoc_template.h</innerfile>
+    <innerfile refid="mac__pydoc__template_8h">mac_pydoc_template.h</innerfile>
+    <innerfile refid="mapper__pydoc__template_8h">mapper_pydoc_template.h</innerfile>
+    <innerfile refid="my__strobe__pydoc__template_8h">my_strobe_pydoc_template.h</innerfile>
+    <innerfile refid="ofdm__demapper__pydoc__template_8h">ofdm_demapper_pydoc_template.h</innerfile>
+    <innerfile refid="ofdm__insert__preamble__tagged__pydoc__template_8h">ofdm_insert_preamble_tagged_pydoc_template.h</innerfile>
+    <innerfile refid="ofdm__mapper__pydoc__template_8h">ofdm_mapper_pydoc_template.h</innerfile>
+    <innerfile refid="ofdm__sampler__pydoc__template_8h">ofdm_sampler_pydoc_template.h</innerfile>
+    <innerfile refid="parse__mac__pydoc__template_8h">parse_mac_pydoc_template.h</innerfile>
+    <innerfile refid="preamble__detector__pydoc__template_8h">preamble_detector_pydoc_template.h</innerfile>
+    <innerfile refid="signal__field__pydoc__template_8h">signal_field_pydoc_template.h</innerfile>
+    <innerfile refid="sync__long__pydoc__template_8h">sync_long_pydoc_template.h</innerfile>
+    <innerfile refid="sync__short__pydoc__template_8h">sync_short_pydoc_template.h</innerfile>
+    <innerfile refid="uav__system__pydoc__template_8h">uav_system_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kaan/Documents/local-works/gnuradio_practices/gr-ieee802-11/python/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>
