@@ -51,11 +51,6 @@ uav_system_impl::uav_system_impl(std::vector<uint8_t> src, long period_ms, bool 
     }
 }
 
-/* TODO:
-    - Check the data whether correctly communicate or not
-
-*/
-
 void uav_system_impl::initial_token(const uint8_t token_id) {
     d_token_1.header.token_id = token_id;
     d_token_1.header.num_uavs = 1;
